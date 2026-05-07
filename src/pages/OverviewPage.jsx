@@ -71,8 +71,8 @@ export default function OverviewPage({ onNav }) {
                 </span>
                 {!mob && (
                   <>
-                    <span style={{ fontSize:11.5, color:'rgba(255,255,255,0.7)', background:'rgba(255,255,255,0.12)', padding:'2px 8px', borderRadius:99 }}>🔬 {ch.lessons.filter(l=>l.type==='lab').length} Lab</span>
-                    <span style={{ fontSize:11.5, color:'rgba(255,255,255,0.7)', background:'rgba(255,255,255,0.12)', padding:'2px 8px', borderRadius:99 }}>✏️ {ch.lessons.reduce((s,l)=>s+(l.exercises?.length||0),0)} BT</span>
+                    <span style={{ fontSize:11.5, color:'rgba(255,255,255,0.7)', background:'rgba(255,255,255,0.12)', padding:'2px 8px', borderRadius:99 }}> {ch.lessons.filter(l=>l.type==='lab').length} Lab</span>
+                    <span style={{ fontSize:11.5, color:'rgba(255,255,255,0.7)', background:'rgba(255,255,255,0.12)', padding:'2px 8px', borderRadius:99 }}> {ch.lessons.reduce((s,l)=>s+(l.exercises?.length||0),0)} BT</span>
                   </>
                 )}
               </div>
@@ -94,9 +94,9 @@ export default function OverviewPage({ onNav }) {
                     <div style={{ fontSize: mob?12.5:13.5, fontWeight:600, color:'#0f0f1a', marginBottom: mob?0:3, lineHeight:1.35 }}>{lesson.title}</div>
                     {!mob && (
                       <div style={{ display:'flex', gap:5, flexWrap:'wrap', marginTop:3 }}>
-                        {hasTheory && <span style={{ fontSize:9.5, padding:'1px 5px', borderRadius:4, background:'#eef2ff', color:'#4f46e5', fontWeight:600 }}>📚 LT</span>}
-                        {hasLab    && <span style={{ fontSize:9.5, padding:'1px 5px', borderRadius:4, background:'#fef3c7', color:'#92400e', fontWeight:600 }}>🔬 Lab</span>}
-                        {hasEx     && <span style={{ fontSize:9.5, padding:'1px 5px', borderRadius:4, background:'#dcfce7', color:'#166534', fontWeight:600 }}>✏️ {lesson.exercises.length}BT</span>}
+                        {hasTheory && <span style={{ fontSize:9.5, padding:'1px 5px', borderRadius:4, background:'#eef2ff', color:'#4f46e5', fontWeight:600 }}> LT</span>}
+                        {hasLab    && <span style={{ fontSize:9.5, padding:'1px 5px', borderRadius:4, background:'#fef3c7', color:'#92400e', fontWeight:600 }}> Lab</span>}
+                        {hasEx     && <span style={{ fontSize:9.5, padding:'1px 5px', borderRadius:4, background:'#dcfce7', color:'#166534', fontWeight:600 }}> {lesson.exercises.length}BT</span>}
                       </div>
                     )}
                   </div>
