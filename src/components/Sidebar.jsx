@@ -45,7 +45,7 @@ export default function Sidebar({ current, onNav }) {
         {CHAPTERS.map(ch => (
           <SbItem
             key={ch.id}
-            item={{ key: `chapter-${ch.id}`, icon: ch.emoji, label: `C${ch.id}: ${ch.title}`, count: `${ch.soTiet}t` }}
+            item={{ key: `chapter-${ch.id}`, icon: ch.emoji, label: `C${ch.id}: ${ch.title}`, count: `${ch.soTiet}` }}
             active={current === `chapter-${ch.id}`}
             onClick={() => onNav(`chapter-${ch.id}`)}
           />
