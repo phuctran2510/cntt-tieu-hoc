@@ -109,7 +109,7 @@ export const CHAPTERS = [
     id: 1, slug: "tong-quan",
     title: "Tổng quan CNTT trong Giáo dục Tiểu học",
     emoji: "♳", color: "#1d4ed8", bgLight: "#dbeafe",
-    //tietRange: "", soTiet: 7,
+    tietRange: "", soTiet: 7,
     description: "Xây dựng nền tảng hiểu biết về vai trò CNTT trong GDTH, khung chính sách Việt Nam và năng lực số của giáo viên theo chuẩn quốc tế.",
     mucTieu: [
       "Phân tích được xu hướng CNTT trong GDTH theo Chiến lược GD 2021–2030",

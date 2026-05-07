@@ -10,7 +10,7 @@ function useIsMobile() {
   }, []);
   return m;
 }
-
+s
 export default function HomePage({ onNav }) {
   const mob = useIsMobile();
 
@@ -128,8 +128,8 @@ function ChapterCard({ ch, delay, onClick, mob }) {
         </div>
         <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', paddingTop: mob?10:12, borderTop:'1px solid #f0f0f8', marginTop: mob?8:0 }}>
           <div style={{ display:'flex', gap: mob?8:12, fontSize: mob?11:12, color:'#6e6e9a' }}>
-            <span>📅 {ch.soTiet}t</span>
-            <span>🔬 {ch.lessons.filter(l=>l.type==='lab').length} Lab</span>
+            <span> {ch.soTiet}t</span>
+            <span> {ch.lessons.filter(l=>l.type==='lab').length} Lab</span>
           </div>
           <span style={{ fontSize:12, color:ch.color, fontWeight:700 }}>Xem →</span>
         </div>
