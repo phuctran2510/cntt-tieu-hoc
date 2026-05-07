@@ -414,7 +414,7 @@ export const CHAPTERS = [
         thamKhao: [],
       },
       {
-        id: 7, num: "Tiết 7", type: "kt",
+        id: 7, num: "", type: "kt",
         title: "Kiểm tra Chương 1 — Lý thuyết & Thực hành",
         duration: 45,
         mota: "Đánh giá toàn diện kiến thức và kỹ năng chương 1 qua 3 phần: trắc nghiệm, tự luận và thực hành demo.",
