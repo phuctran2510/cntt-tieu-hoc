@@ -108,7 +108,7 @@ export const CHAPTERS = [
   {
     id: 1, slug: "tong-quan",
     title: "Tổng quan CNTT trong Giáo dục Tiểu học",
-    emoji: "🎯", color: "#1d4ed8", bgLight: "#dbeafe",
+    emoji: "⤇", color: "#1d4ed8", bgLight: "#dbeafe",
     tietRange: "1–7", soTiet: 7,
     description: "Xây dựng nền tảng hiểu biết về vai trò CNTT trong GDTH, khung chính sách Việt Nam và năng lực số của giáo viên theo chuẩn quốc tế.",
     mucTieu: [
@@ -440,7 +440,7 @@ export const CHAPTERS = [
   {
     id: 2, slug: "thiet-ke-hoc-lieu",
     title: "Thiết kế bài giảng & Học liệu số chuyên nghiệp",
-    emoji: "🎨", color: "#15803d", bgLight: "#dcfce7",
+    emoji: "⤇", color: "#15803d", bgLight: "#dcfce7",
     tietRange: "8–17", soTiet: 10,
     description: "Trang bị kỹ năng thiết kế đa dạng học liệu số chất lượng cao: bài trình chiếu, đồ họa, video, bản đồ tư duy — có tính thẩm mỹ và hiệu quả sư phạm.",
     mucTieu: [
@@ -862,7 +862,7 @@ export const CHAPTERS = [
   {
     id: 3, slug: "day-hoc-truc-tuyen",
     title: "Dạy học trực tuyến & Công cụ tương tác số",
-    emoji: "🖥️", color: "#c2410c", bgLight: "#ffedd5",
+    emoji: "⤇", color: "#c2410c", bgLight: "#ffedd5",
     tietRange: "18–27", soTiet: 10,
     description: "Xây dựng năng lực tổ chức dạy học trực tuyến, blended learning và sử dụng công cụ tương tác số: Kahoot, Quizizz, Mentimeter, Padlet.",
     mucTieu: [
@@ -891,7 +891,7 @@ export const CHAPTERS = [
   {
     id: 4, slug: "danh-gia-so",
     title: "Đánh giá số & Dữ liệu học tập",
-    emoji: "📊", color: "#7e22ce", bgLight: "#f3e8ff",
+    emoji: "⤇", color: "#7e22ce", bgLight: "#f3e8ff",
     tietRange: "28–34", soTiet: 7,
     description: "Xây dựng hệ thống đánh giá số toàn diện: quiz tự động, rubric số, e-portfolio và phân tích dữ liệu học tập để ra quyết định dạy học dựa trên dữ liệu.",
     mucTieu: ["Thiết kế hệ thống đánh giá số phù hợp TT27/2020", "Tạo quiz tự chấm và rubric số với Google Forms", "Xây dựng e-portfolio với Seesaw và Book Creator", "Phân tích dữ liệu học tập với Google Sheets", "Kết nối phụ huynh qua công nghệ chuyên nghiệp"],
@@ -907,7 +907,7 @@ export const CHAPTERS = [
   {
     id: 5, slug: "ai-cong-nghe",
     title: "AI & Công nghệ mới trong Giáo dục Tiểu học",
-    emoji: "🤖", color: "#be123c", bgLight: "#ffe4e6",
+    emoji: "⤇", color: "#be123c", bgLight: "#ffe4e6",
     tietRange: "35–41", soTiet: 7,
     description: "Khám phá và ứng dụng AI tạo sinh, VR/AR, lập trình tư duy máy tính và STEAM tích hợp trong thực tiễn GDTH.",
     mucTieu: ["Sử dụng ChatGPT/Gemini hỗ trợ soạn giáo án và tạo học liệu", "Khai thác VR/AR và gamification trong GDTH", "Dạy lập trình tư duy máy tính với Scratch, Code.org, Bee-Bot", "Thiết kế unit STEAM tích hợp CNTT cho HS tiểu học", "Giảng dạy an toàn số và công dân số"],
@@ -923,7 +923,7 @@ export const CHAPTERS = [
   {
     id: 6, slug: "tong-ket",
     title: "Thực hành tổng hợp & Đánh giá cuối khóa",
-    emoji: "🎓", color: "#0f766e", bgLight: "#ccfbf1",
+    emoji: "⤇", color: "#0f766e", bgLight: "#ccfbf1",
     tietRange: "42–45", soTiet: 4,
     description: "Tổng hợp toàn bộ khóa học qua portfolio cá nhân, hội thảo triển lãm và bài thi thực hành thiết kế tiết dạy tích hợp CNTT.",
     mucTieu: ["Tổng hợp hồ sơ năng lực số cá nhân trên Google Sites", "Chia sẻ sản phẩm học tập qua hội thảo triển lãm", "Hoàn thành bài thi thực hành thiết kế tiết dạy", "Xác định lộ trình phát triển nghề nghiệp số"],
