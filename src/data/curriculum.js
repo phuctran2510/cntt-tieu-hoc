@@ -109,7 +109,7 @@ export const CHAPTERS = [
     id: 1, slug: "tong-quan",
     title: "Tổng quan CNTT trong Giáo dục Tiểu học",
     emoji: "♳", color: "#1d4ed8", bgLight: "#dbeafe",
-    tietRange: "", soTiet: 7,
+    //tietRange: "", soTiet: 7,
     description: "Xây dựng nền tảng hiểu biết về vai trò CNTT trong GDTH, khung chính sách Việt Nam và năng lực số của giáo viên theo chuẩn quốc tế.",
     mucTieu: [
       "Phân tích được xu hướng CNTT trong GDTH theo Chiến lược GD 2021–2030",
@@ -441,7 +441,7 @@ export const CHAPTERS = [
     id: 2, slug: "thiet-ke-hoc-lieu",
     title: "Thiết kế bài giảng & Học liệu số chuyên nghiệp",
     emoji: "♴", color: "#15803d", bgLight: "#dcfce7",
-    tietRange: "", soTiet: 10,
+    //tietRange: "", soTiet: 10,
     description: "Trang bị kỹ năng thiết kế đa dạng học liệu số chất lượng cao: bài trình chiếu, đồ họa, video, bản đồ tư duy — có tính thẩm mỹ và hiệu quả sư phạm.",
     mucTieu: [
       "Áp dụng lý thuyết tải nhận thức và Multimedia Learning vào thiết kế học liệu",
@@ -863,7 +863,7 @@ export const CHAPTERS = [
     id: 3, slug: "day-hoc-truc-tuyen",
     title: "Dạy học trực tuyến & Công cụ tương tác số",
     emoji: "♵", color: "#c2410c", bgLight: "#ffedd5",
-    tietRange: "", soTiet: 10,
+    //tietRange: "", soTiet: 10,
     description: "Xây dựng năng lực tổ chức dạy học trực tuyến, blended learning và sử dụng công cụ tương tác số: Kahoot, Quizizz, Mentimeter, Padlet.",
     mucTieu: [
       "Quản lý lớp học hiệu quả với Google Classroom và Microsoft Teams",
