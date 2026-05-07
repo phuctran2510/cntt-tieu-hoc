@@ -70,7 +70,7 @@ export default function LessonPage({ lessonId, onNav }) {
           {/* Theory blocks */}
           {lesson.theory && lesson.theory.length > 0 && (
             <div>
-              <SectionLabel>📚 Nội dung lý thuyết chi tiết</SectionLabel>
+              <SectionLabel>Nội dung lý thuyết chi tiết</SectionLabel>
               {lesson.theory.map((block, i) => <TheoryBlock key={i} block={block} chColor={ch?.color} mob={mob} />)}
             </div>
           )}
@@ -78,7 +78,7 @@ export default function LessonPage({ lessonId, onNav }) {
           {/* Nội dung chính fallback */}
           {(!lesson.theory || lesson.theory.length === 0) && lesson.noiDungChinh.length > 0 && (
             <Card style={{ padding: mob?'14px 16px':'22px 24px' }}>
-              <SectionLabel>📋 Nội dung chính</SectionLabel>
+              <SectionLabel>Nội dung chính</SectionLabel>
               {lesson.noiDungChinh.map((item, i) => <ContentItem key={i} text={item} chColor={ch?.color} />)}
             </Card>
           )}
@@ -94,7 +94,7 @@ export default function LessonPage({ lessonId, onNav }) {
           {/* Exercises */}
           {lesson.exercises && lesson.exercises.length > 0 && (
             <div>
-              <SectionLabel>✏️ Bài tập & Thực hành ({lesson.exercises.length})</SectionLabel>
+              <SectionLabel>Bài tập & Thực hành ({lesson.exercises.length})</SectionLabel>
               {lesson.exercises.map((ex, i) => <ExerciseCard key={i} ex={ex} mob={mob} />)}
             </div>
           )}
@@ -159,7 +159,7 @@ export default function LessonPage({ lessonId, onNav }) {
           {/* Tài liệu tham khảo */}
           {lesson.thamKhao && lesson.thamKhao.length > 0 && (
             <Card style={{ padding: mob?'14px 16px':'18px 22px' }}>
-              <SectionLabel>📚 Tài liệu tham khảo</SectionLabel>
+              <SectionLabel>Tài liệu tham khảo</SectionLabel>
               <div style={{ display:'flex', flexDirection:'column', gap:8 }}>
                 {lesson.thamKhao.map((ref, i) => (
                   <div key={i} style={{ display:'flex', gap:8, fontSize:13, color:'#2d2d50', lineHeight:1.6 }}>
@@ -189,7 +189,7 @@ export default function LessonPage({ lessonId, onNav }) {
             {/* Công cụ */}
             {lesson.congCu && lesson.congCu.length > 0 && (
               <Card style={{ padding:'16px 18px' }}>
-                <SectionLabel>🛠️ Công cụ & Phần mềm</SectionLabel>
+                <SectionLabel>Công cụ & Phần mềm</SectionLabel>
                 <div style={{ display:'flex', flexDirection:'column', gap:6 }}>
                   {lesson.congCu.map(tool => (
                     <div key={tool} style={{ display:'flex', alignItems:'center', gap:8, padding:'8px 10px', borderRadius:9, background:'#f0f9ff', border:'1px solid #e0f2fe' }}>
@@ -215,14 +215,14 @@ export default function LessonPage({ lessonId, onNav }) {
 
             {/* Info */}
             <Card style={{ padding:'16px 18px' }}>
-              <SectionLabel>ℹ️ Thông tin</SectionLabel>
+              <SectionLabel>Thông tin</SectionLabel>
               <div style={{ display:'flex', flexDirection:'column', gap:9, fontSize:13 }}>
                 {[
-                  { icon:'📌', label:'Số tiết',    val: lesson.num },
-                  { icon:'⏱️', label:'Thời lượng', val: `${lesson.duration} phút` },
-                  { icon:'📖', label:'Loại tiết',  val: `${cfg.icon} ${cfg.label}` },
-                  { icon:'📚', label:'Chương',     val: `Chương ${lesson.chapterId}` },
-                  { icon:'✏️', label:'Bài tập',    val: `${lesson.exercises?.length||0} bài` },
+                  { icon:'', label:'Số tiết',    val: lesson.num },
+                  { icon:'', label:'Thời lượng', val: `${lesson.duration} phút` },
+                  { icon:'', label:'Loại tiết',  val: `${cfg.icon} ${cfg.label}` },
+                  { icon:'', label:'Chương',     val: `Chương ${lesson.chapterId}` },
+                  { icon:'', label:'Bài tập',    val: `${lesson.exercises?.length||0} bài` },
                 ].map(r => (
                   <div key={r.label} style={{ display:'flex', justifyContent:'space-between', alignItems:'center' }}>
                     <span style={{ color:'#6e6e9a', display:'flex', gap:5 }}><span>{r.icon}</span>{r.label}</span>
@@ -264,7 +264,7 @@ function TheoryBlock({ block, chColor, mob }) {
   return (
     <div style={{ border:'1px solid #e4e4f0', borderRadius:14, overflow:'hidden', marginBottom:12 }}>
       <div style={{ background:'#f8f8fd', padding: mob?'11px 14px':'13px 18px', borderBottom:'1px solid #e4e4f0', display:'flex', gap:10, alignItems:'center' }}>
-        <span style={{ fontSize:15 }}>📌</span>
+        <span style={{ fontSize:15 }}></span>
         <span style={{ fontSize: mob?13:13.5, fontWeight:700, color:'#0f0f1a' }}>{block.title}</span>
       </div>
       <div style={{ padding: mob?'14px 14px':'16px 18px' }}>
@@ -309,7 +309,7 @@ function ExerciseCard({ ex, mob }) {
   return (
     <div style={{ border:'1px solid #e4e4f0', borderRadius:14, overflow:'hidden', marginBottom:12 }}>
       <div style={{ padding: mob?'11px 14px':'13px 18px', background:'#f8f8fd', borderBottom:'1px solid #e4e4f0', display:'flex', alignItems:'center', gap:10, flexWrap:'wrap' }}>
-        <span style={{ fontSize:15 }}>✏️</span>
+        <span style={{ fontSize:15 }}></span>
         <span style={{ fontSize: mob?13:14, fontWeight:700, color:'#0f0f1a', flex:1, minWidth:0 }}>{ex.title}</span>
         <ExerciseBadge type={ex.type} />
       </div>

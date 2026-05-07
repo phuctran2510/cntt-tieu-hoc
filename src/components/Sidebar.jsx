@@ -1,10 +1,10 @@
 import { CHAPTERS } from '../data/curriculum';
 
 const MAIN_NAV = [
-  { key: 'home', icon: '🏠', label: 'Tổng quan' },
-  { key: 'faculty', icon: '👩‍🏫', label: 'Giảng viên' },
-  { key: 'search', icon: '🔍', label: 'Tìm kiếm' },
-  { key: 'overview', icon: '📋', label: 'Lịch học 45 tiết' },
+  { key: 'home', icon: '', label: 'Tổng quan' },
+  { key: 'faculty', icon: '👩', label: 'Giảng viên' },
+  { key: 'search', icon: '', label: 'Tìm kiếm' },
+  { key: 'overview', icon: '', label: 'Lịch học 45 tiết' },
 ];
 
 export default function Sidebar({ current, onNav }) {
@@ -13,7 +13,7 @@ export default function Sidebar({ current, onNav }) {
       {/* Brand */}
       <div style={{ padding: '18px 18px 14px', borderBottom: '1px solid rgba(255,255,255,0.07)' }}>
         <div style={{ fontSize: 9.5, fontWeight: 700, letterSpacing: '0.12em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.3)', marginBottom: 7 }}>
-          Giáo trình 2024–2026
+          Trần Vĩnh Phúc
         </div>
         <div style={{ fontFamily: "'Fraunces', serif", fontSize: 15, fontWeight: 700, color: '#fff', lineHeight: 1.35, marginBottom: 10 }}>
           Ứng dụng CNTT<br />Giáo dục Tiểu học
@@ -54,8 +54,8 @@ export default function Sidebar({ current, onNav }) {
 
       {/* Footer */}
       <div style={{ marginTop: 'auto', padding: '12px 18px', borderTop: '1px solid rgba(255,255,255,0.06)', fontSize: 10.5, color: 'rgba(255,255,255,0.22)', lineHeight: 1.7 }}>
-        Phù hợp CTGDPT 2018<br />
-        Khung DigComp 2.2
+        Khoa CNTT<br />
+        phuctv@dlu.edu.vn
       </div>
     </aside>
   );

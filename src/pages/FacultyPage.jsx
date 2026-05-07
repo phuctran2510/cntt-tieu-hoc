@@ -74,7 +74,7 @@ export default function FacultyPage() {
 
           {/* Publications */}
           <Card style={{ padding: mob?'14px 16px':'22px 24px' }}>
-            <SectionLabel>📄 Công trình nghiên cứu</SectionLabel>
+            <SectionLabel> Công trình nghiên cứu</SectionLabel>
             {FACULTY.publications.map((pub, i) => (
               <div key={i} style={{ display:'flex', gap:12, padding:'13px 0', borderBottom: i < FACULTY.publications.length-1 ? '1px solid #f0f0f8':'none' }}>
                 <div style={{ fontSize:11, fontWeight:700, color:'#4f46e5', fontFamily:"'JetBrains Mono',monospace", minWidth:34, paddingTop:2, flexShrink:0 }}>{pub.year}</div>
