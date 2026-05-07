@@ -19,7 +19,7 @@ export default function OverviewPage({ onNav }) {
     <div className="anim-up">
       {/* Hero */}
       <div style={{ background:'linear-gradient(135deg,#0f0f1a 0%,#1e1e35 100%)', borderRadius: mob?14:20, padding: mob?'20px 16px':'28px 28px', marginBottom:18, color:'#fff' }}>
-        <div style={{ fontSize:10, fontWeight:700, letterSpacing:'0.13em', textTransform:'uppercase', color:'rgba(255,255,255,0.38)', marginBottom:7 }}>📋 Lịch học toàn khóa</div>
+        <div style={{ fontSize:10, fontWeight:700, letterSpacing:'0.13em', textTransform:'uppercase', color:'rgba(255,255,255,0.38)', marginBottom:7 }}> Lịch học toàn khóa</div>
         <h1 style={{ fontFamily:"'Fraunces',serif", fontSize: mob?18:22, fontWeight:700, marginBottom:7 }}>45 Tiết học — Toàn khóa</h1>
         <p style={{ fontSize: mob?12.5:13.5, color:'rgba(255,255,255,0.55)', marginBottom:16 }}>Tổng quan lịch trình học tập theo từng chương và loại tiết.</p>
         <div style={{ display:'flex', gap: mob?8:12, flexWrap:'wrap' }}>
@@ -67,7 +67,7 @@ export default function OverviewPage({ onNav }) {
               </div>
               <div style={{ display:'flex', gap:6, flexShrink:0 }}>
                 <span style={{ fontSize: mob?10:11.5, color:'rgba(255,255,255,0.7)', background:'rgba(255,255,255,0.12)', padding:'2px 8px', borderRadius:99 }}>
-                  📅 {ch.soTiet}t
+                   {ch.soTiet}t
                 </span>
                 {!mob && (
                   <>
