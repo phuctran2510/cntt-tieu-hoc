@@ -61,7 +61,7 @@ export default function OverviewPage({ onNav }) {
               <span style={{ fontSize: mob?17:20 }}>{ch.emoji}</span>
               <div style={{ flex:1, minWidth:0 }}>
                 <div style={{ fontSize: mob?9:10, fontWeight:700, color:'rgba(255,255,255,0.6)', letterSpacing:'0.08em', textTransform:'uppercase' }}>
-                  Chương {ch.id} ·  {ch.tietRange}
+                  Chương {ch.id} ·  
                 </div>
                 <div style={{ fontSize: mob?13:15, fontWeight:700, color:'#fff', overflow:'hidden', textOverflow:'ellipsis', whiteSpace: mob?'nowrap':'normal' }}>{ch.title}</div>
               </div>
