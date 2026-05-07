@@ -2,7 +2,7 @@ import { CHAPTERS } from '../data/curriculum';
 
 const MAIN_NAV = [
   { key: 'home', icon: '', label: 'Tổng quan' },
-  { key: 'faculty', icon: '👩', label: 'Giảng viên' },
+  { key: 'faculty', icon: '', label: 'Giảng viên' },
   { key: 'search', icon: '', label: 'Tìm kiếm' },
   { key: 'overview', icon: '', label: 'Lịch học 45 tiết' },
 ];
