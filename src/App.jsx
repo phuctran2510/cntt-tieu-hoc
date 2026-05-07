@@ -76,7 +76,7 @@ function LoginScreen({ onAuth }) {
           <h1 style={{ fontFamily:"'Fraunces',serif", fontSize:21, fontWeight:700, color:'#0f0f1a', marginBottom:6, lineHeight:1.3 }}>
             Ứng dụng CNTT<br/>Giáo dục Tiểu học
           </h1>
-          <p style={{ fontSize:12.5, color:'#6e6e9a' }}>Trường ĐH Đà Lạt · Khoa Sư phạm · 2024–2026</p>
+          <p style={{ fontSize:12.5, color:'#6e6e9a' }}>Trường ĐH Đà Lạt · Khoa Công nghệ Thông Tin</p>
         </div>
 
         {/* Form */}
