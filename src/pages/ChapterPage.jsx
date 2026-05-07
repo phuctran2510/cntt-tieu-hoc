@@ -34,7 +34,7 @@ export default function ChapterPage({ chapterId, onNav }) {
               </div>
               <div style={{ flex:1, minWidth:0 }}>
                 <div style={{ fontSize: mob?9.5:10.5, fontWeight:700, letterSpacing:'0.1em', textTransform:'uppercase', color:'rgba(255,255,255,0.6)', marginBottom:5 }}>
-                  Chương {ch.id} · Tiết {ch.tietRange} · {ch.soTiet} tiết
+                  Chương {ch.id} ·  {ch.tietRange} · {ch.soTiet} 
                 </div>
                 <h1 style={{ fontFamily:"'Fraunces',serif", fontSize: mob?17:22, fontWeight:700, color:'#fff', lineHeight:1.25, marginBottom:7 }}>
                   {ch.title}
@@ -80,7 +80,7 @@ export default function ChapterPage({ chapterId, onNav }) {
         <div style={{ display:'flex', flexDirection:'column', gap:14 }}>
           {/* Mục tiêu */}
           <Card style={{ padding: mob?'14px 16px':'18px 20px' }}>
-            <SectionLabel>🎯 Mục tiêu chương</SectionLabel>
+            <SectionLabel> Mục tiêu chương</SectionLabel>
             <div style={{ display:'flex', flexDirection:'column', gap:8 }}>
               {ch.mucTieu.map((obj, i) => (
                 <div key={i} style={{ display:'flex', gap:8, fontSize: mob?12.5:13, color:'#2d2d50', lineHeight:1.55 }}>
@@ -94,7 +94,7 @@ export default function ChapterPage({ chapterId, onNav }) {
           {/* Tài liệu */}
           {ch.taiLieu.length > 0 && (
             <Card style={{ padding: mob?'14px 16px':'18px 20px' }}>
-              <SectionLabel>📚 Tài liệu tham khảo</SectionLabel>
+              <SectionLabel> Tài liệu tham khảo</SectionLabel>
               <div style={{ display:'flex', flexDirection:'column', gap:8 }}>
                 {ch.taiLieu.map((ref, i) => (
                   <div key={i} style={{ padding:'9px 11px', border:'1px solid #e4e4f0', borderRadius:9, fontSize:12.5 }}>
