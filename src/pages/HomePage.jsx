@@ -120,7 +120,7 @@ function ChapterCard({ ch, delay, onClick, mob }) {
           </div>
           <div style={{ flex:1, minWidth:0 }}>
             <div style={{ fontSize: mob?9.5:10.5, fontWeight:700, color:'#6e6e9a', letterSpacing:'0.07em', textTransform:'uppercase', marginBottom:3 }}>
-              Chương {ch.id} · Tiết {ch.tietRange}
+              Chương {ch.id} · 
             </div>
             <h3 style={{ fontSize: mob?13.5:14.5, fontWeight:700, color:'#0f0f1a', lineHeight:1.3, marginBottom: mob?5:7 }}>{ch.title}</h3>
             {!mob && <p style={{ fontSize:12.5, color:'#6e6e9a', lineHeight:1.6, marginBottom:12 }}>{ch.description}</p>}
