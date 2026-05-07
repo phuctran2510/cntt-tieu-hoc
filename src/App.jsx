@@ -9,14 +9,14 @@ import OverviewPage from './pages/OverviewPage'
 import SearchPage   from './pages/SearchPage'
 import { CHAPTERS } from './data/curriculum'
 
-const PASSWORD   = 'cnn2026'
+const PASSWORD   = 'cntt2026'
 const STORAGE_KEY = 'cntt_auth'
 
 const MAIN_NAV = [
-  { to:'/',         icon:'🏠', label:'Tổng quan'        },
-  { to:'/faculty',  icon:'👩‍🏫', label:'Giảng viên'       },
-  { to:'/overview', icon:'📋', label:'Lịch học 45 tiết'  },
-  { to:'/search',   icon:'🔍', label:'Tìm kiếm'          },
+  { to:'/',         icon:'', label:'Tổng quan'        },
+  { to:'/faculty',  icon:'', label:'Giảng viên'       },
+  { to:'/overview', icon:'', label:'Lịch học 45 tiết'  },
+  { to:'/search',   icon:'', label:'Tìm kiếm'          },
 ]
 
 function useIsMobile() {
@@ -153,7 +153,7 @@ function Sidebar({ open, onClose }) {
         {/* Brand */}
         <div style={{ padding:'16px 18px 14px', borderBottom:'1px solid rgba(255,255,255,0.07)', display:'flex', alignItems:'flex-start', justifyContent:'space-between' }}>
           <div>
-            <div style={{ fontSize:9.5, fontWeight:700, letterSpacing:'0.12em', textTransform:'uppercase', color:'rgba(255,255,255,0.3)', marginBottom:6 }}>Giáo trình 2024–2026</div>
+            <div style={{ fontSize:9.5, fontWeight:700, letterSpacing:'0.12em', textTransform:'uppercase', color:'rgba(255,255,255,0.3)', marginBottom:6 }}>Trần vĩnh Phúc</div>
             <div style={{ fontFamily:"'Fraunces',serif", fontSize:14.5, fontWeight:700, color:'#fff', lineHeight:1.35, marginBottom:10 }}>
               Ứng dụng CNTT<br/>Giáo dục Tiểu học
             </div>
@@ -193,7 +193,8 @@ function Sidebar({ open, onClose }) {
 
         {/* Footer */}
         <div style={{ marginTop:'auto', padding:'12px 18px', borderTop:'1px solid rgba(255,255,255,0.06)', fontSize:10.5, color:'rgba(255,255,255,0.25)', lineHeight:1.7 }}>
-          Phù hợp CTGDPT 2018 · DigComp 2.2
+          Khoa Công nghệ Thông Tin - DLU
+          phuctv@dlu.edu.vn
         </div>
       </aside>
     </>
