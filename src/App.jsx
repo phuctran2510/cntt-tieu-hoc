@@ -248,7 +248,7 @@ function Topbar({ onMenu, onLogout }) {
       {/* Desktop: quick links */}
       {!mob && (
         <div style={{ display:'flex', gap:8, alignItems:'center' }}>
-          {[{to:'/faculty',l:'👩‍🏫 GV'},{to:'/search',l:'🔍 Tìm'},{to:'/overview',l:'📋 Lịch'}].map(b => (
+          {[{to:'/faculty',l:' Giảng Viên'},{to:'/search',l:' Tìm'},{to:'/overview',l:' Lịch'}].map(b => (
             <NavLink key={b.to} to={b.to}
               style={({ isActive }) => ({ padding:'5px 12px', borderRadius:8, border:`1px solid ${isActive?'#818cf8':'#e4e4f0'}`, fontSize:12.5, color:isActive?'#4f46e5':'#6e6e9a', background:isActive?'#eef2ff':'#f8f8fd', textDecoration:'none', fontWeight:isActive?600:400, transition:'all .12s' })}>
               {b.l}
