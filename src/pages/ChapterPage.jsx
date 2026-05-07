@@ -134,9 +134,9 @@ function LessonRow({ lesson, ch, isLast, onClick, mob }) {
         <div style={{ fontSize: mob?13:14, fontWeight:600, color:'#0f0f1a', marginBottom:4, lineHeight:1.35 }}>{lesson.title}</div>
         {!mob && <div style={{ fontSize:12.5, color:'#6e6e9a', lineHeight:1.5, marginBottom:6 }}>{lesson.mota}</div>}
         <div style={{ display:'flex', gap:5, flexWrap:'wrap', alignItems:'center' }}>
-          {hasTheory && <span style={{ fontSize:10, padding:'2px 6px', borderRadius:5, background:'#eef2ff', color:'#4f46e5', fontWeight:600 }}>📚 LT</span>}
-          {hasLab    && <span style={{ fontSize:10, padding:'2px 6px', borderRadius:5, background:'#fef3c7', color:'#92400e', fontWeight:600 }}>🔬 Lab</span>}
-          {exCount > 0 && <span style={{ fontSize:10, padding:'2px 6px', borderRadius:5, background:'#dcfce7', color:'#166534', fontWeight:600 }}>✏️ {exCount}BT</span>}
+          {hasTheory && <span style={{ fontSize:10, padding:'2px 6px', borderRadius:5, background:'#eef2ff', color:'#4f46e5', fontWeight:600 }}>♽ LT</span>}
+          {hasLab    && <span style={{ fontSize:10, padding:'2px 6px', borderRadius:5, background:'#fef3c7', color:'#92400e', fontWeight:600 }}>♽ Lab</span>}
+          {exCount > 0 && <span style={{ fontSize:10, padding:'2px 6px', borderRadius:5, background:'#dcfce7', color:'#166534', fontWeight:600 }}>♽ {exCount}BT</span>}
         </div>
       </div>
       <div style={{ flexShrink:0, paddingTop:2 }}>
