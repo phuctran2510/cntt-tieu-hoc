@@ -127,7 +127,7 @@ export const CHAPTERS = [
     ],
     lessons: [
       {
-        id: 1, num: "Tiết 1", type: "lt",
+        id: 1, num: "", type: "lt",
         title: "Tổng quan CNTT trong Giáo dục Tiểu học Việt Nam",
         duration: 45,
         mota: "Bức tranh toàn cảnh về ứng dụng CNTT trong GDTH: từ chính sách đến thực tiễn, xu hướng toàn cầu và lộ trình chuyển đổi số.",
@@ -198,7 +198,7 @@ export const CHAPTERS = [
         ],
       },
       {
-        id: 2, num: "Tiết 2", type: "lt",
+        id: 2, num: "", type: "lt",
         title: "Năng lực số của giáo viên tiểu học — Khung DigComp 2.2",
         duration: 45,
         mota: "Phân tích chi tiết các khung năng lực số quốc tế và xây dựng lộ trình phát triển năng lực số cá nhân theo chuẩn DigComp 2.2.",
@@ -261,7 +261,7 @@ export const CHAPTERS = [
         ],
       },
       {
-        id: 3, num: "Tiết 3", type: "lt",
+        id: 3, num: "", type: "lt",
         title: "Tâm lý học phát triển & Thiết kế học liệu số cho HS 6–11 tuổi",
         duration: 45,
         mota: "Nền tảng tâm lý học phát triển ứng dụng vào thiết kế trải nghiệm học tập số phù hợp đặc điểm nhận thức và cảm xúc của HS tiểu học.",
@@ -334,7 +334,7 @@ export const CHAPTERS = [
         ],
       },
       {
-        id: 4, num: "Tiết 4", type: "bt",
+        id: 4, num: "", type: "bt",
         title: "Bài tập: Phân tích chính sách & Khảo sát thực trạng CNTT",
         duration: 45,
         mota: "Vận dụng kiến thức chương 1 vào phân tích văn bản chính sách và thu thập dữ liệu thực trạng CNTT tại trường tiểu học.",
@@ -353,7 +353,7 @@ export const CHAPTERS = [
             title: "Dự án nhóm: Khảo sát thực trạng CNTT",
             question: "NHÓM 4-5 NGƯỜI. Thiết kế và thực hiện khảo sát thực trạng ứng dụng CNTT tại 1 trường TH (có thể là trường thực tập hoặc trường đã biết). Khảo sát gồm: (1) Hạ tầng CNTT — máy tính, internet, thiết bị, (2) Mức độ sử dụng CNTT của GV — công cụ, tần suất, mục đích, (3) Thái độ của GV và PH với CNTT trong dạy học, (4) Nhu cầu bồi dưỡng của GV. Phân tích kết quả và đề xuất kế hoạch hành động 3 tháng.",
             hint: "Dùng Google Forms để tạo phiếu khảo sát online. Thu thập ít nhất 15 phản hồi. Dùng Google Sheets để phân tích và tạo biểu đồ tự động.",
-            output: "Báo cáo 4-5 trang (Google Docs) + biểu đồ phân tích (Google Sheets) + slide trình bày 10 phút",
+            output: "Báo cáo 4-5 trang (Google Docs) + biểu đồ phân tích (Google Sheets) + slide trình bày",
           },
         ],
         congCu: ["Google Forms", "Google Sheets", "Canva (poster kết quả)", "Google Slides"],
@@ -361,15 +361,15 @@ export const CHAPTERS = [
         thamKhao: [],
       },
       {
-        id: 5, num: "Tiết 5–6", type: "lab",
+        id: 5, num: "", type: "lab",
         title: "Lab 1: Thiết lập môi trường làm việc số toàn diện",
         duration: 90,
         mota: "Thực hành toàn diện thiết lập Google Workspace for Education và Microsoft 365 for Education — hai hệ sinh thái số phổ biến nhất tại trường TH Việt Nam.",
         theory: [],
         labSteps: [
           {
-            title: "A. Google Workspace for Education (45 phút)",
-            time: "45 phút",
+            title: "A. Google Workspace for Education ",
+            time: "",
             tasks: [
               "Đăng ký Google Workspace for Education Fundamentals (miễn phí 100% cho trường đủ điều kiện)",
               "Tạo tài khoản Google Classroom: đặt tên lớp, thêm banner Canva, viết mô tả lớp",
@@ -380,8 +380,8 @@ export const CHAPTERS = [
             ],
           },
           {
-            title: "B. Microsoft 365 for Education (30 phút)",
-            time: "30 phút",
+            title: "B. Microsoft 365 for Education",
+            time: "",
             tasks: [
               "Đăng ký Microsoft 365 A1 miễn phí: truy cập microsoft.com/education → yêu cầu tài khoản .edu",
               "Tạo Class Team trong Teams for Education: kênh Announcements, General, theo môn",
@@ -391,8 +391,8 @@ export const CHAPTERS = [
             ],
           },
           {
-            title: "C. So sánh và lựa chọn (15 phút)",
-            time: "15 phút",
+            title: "C. So sánh và lựa chọn ",
+            time: "",
             tasks: [
               "Điền bảng so sánh Google vs Microsoft theo 10 tiêu chí (cung cấp sẵn)",
               "Thảo luận: trường mình nên dùng gì? Lý do?",
@@ -420,9 +420,9 @@ export const CHAPTERS = [
         mota: "Đánh giá toàn diện kiến thức và kỹ năng chương 1 qua 3 phần: trắc nghiệm, tự luận và thực hành demo.",
         theory: [],
         noiDungChinh: [
-          "Phần 1 (15 phút): 20 câu trắc nghiệm — Chính sách CNTT-GD, DigComp, Tâm lý HS, SAMR",
-          "Phần 2 (20 phút): 2 câu tự luận — phân tích thách thức + kế hoạch IDP",
-          "Phần 3 (10 phút): Demo nhanh Google Classroom cơ bản",
+          "Phần 1 : 20 câu trắc nghiệm — Chính sách CNTT-GD, DigComp, Tâm lý HS, SAMR",
+          "Phần 2 : 2 câu tự luận — phân tích thách thức + kế hoạch IDP",
+          "Phần 3 : Demo nhanh Google Classroom cơ bản",
           "Biểu điểm: TN 30% + TL 40% + TH 30%",
         ],
         phuongPhap: ["Kiểm tra trắc nghiệm + tự luận", "Demo thực hành", "Thảo luận sau kiểm tra"],
@@ -441,7 +441,7 @@ export const CHAPTERS = [
     id: 2, slug: "thiet-ke-hoc-lieu",
     title: "Thiết kế bài giảng & Học liệu số chuyên nghiệp",
     emoji: "♴", color: "#15803d", bgLight: "#dcfce7",
-    tietRange: "8–17", soTiet: 10,
+    tietRange: "", soTiet: 10,
     description: "Trang bị kỹ năng thiết kế đa dạng học liệu số chất lượng cao: bài trình chiếu, đồ họa, video, bản đồ tư duy — có tính thẩm mỹ và hiệu quả sư phạm.",
     mucTieu: [
       "Áp dụng lý thuyết tải nhận thức và Multimedia Learning vào thiết kế học liệu",
@@ -459,7 +459,7 @@ export const CHAPTERS = [
     ],
     lessons: [
       {
-        id: 8, num: "Tiết 8", type: "lt",
+        id: 8, num: "", type: "lt",
         title: "Nguyên tắc khoa học thiết kế học liệu số",
         duration: 45,
         mota: "Nền tảng khoa học nhận thức ứng dụng trực tiếp vào thiết kế học liệu số hiệu quả — không thiết kế theo cảm tính.",
@@ -493,7 +493,7 @@ export const CHAPTERS = [
           "LORI: công cụ đánh giá chất lượng học liệu số",
           "Creative Commons và bản quyền trong học liệu GD",
         ],
-        phuongPhap: ["Phân tích học liệu mẫu tốt/xấu", "Thảo luận nhóm", "Thiết kế nhanh 10 phút"],
+        phuongPhap: ["Phân tích học liệu mẫu tốt/xấu", "Thảo luận nhóm", "Thiết kế nhanh"],
         chuanDauRa: "Phân tích được học liệu số theo Cognitive Load Theory và đề xuất cải thiện cụ thể",
         exercises: [
           {
@@ -509,7 +509,7 @@ export const CHAPTERS = [
         thamKhao: ["Sweller, J. et al. (2019). Cognitive Architecture and Instructional Design.", "CAST (2024). UDL Guidelines 3.0."],
       },
       {
-        id: 9, num: "Tiết 9", type: "lt",
+        id: 9, num: "", type: "lt",
         title: "PowerPoint & Google Slides nâng cao cho lớp tiểu học",
         duration: 45,
         mota: "Kỹ thuật chuyên sâu tạo bài trình chiếu tương tác, slide master, animation có chủ đích và quiz nội bộ không cần internet.",
@@ -561,15 +561,15 @@ export const CHAPTERS = [
         thamKhao: [],
       },
       {
-        id: 10, num: "Tiết 10–11", type: "lab",
+        id: 10, num: "", type: "lab",
         title: "Lab 2: Thiết kế bài giảng PowerPoint/Google Slides chuẩn",
         duration: 90,
         mota: "Thực hành tạo 2 bài giảng hoàn chỉnh cho 2 môn khác nhau, peer review theo rubric 5 tiêu chí.",
         theory: [],
         labSteps: [
           {
-            title: "A. Bài giảng Toán lớp 3: Phép nhân số có 2 chữ số (40 phút)",
-            time: "40 phút",
+            title: "A. Bài giảng Toán lớp 3: Phép nhân số có 2 chữ số ",
+            time: "",
             tasks: [
               "Tạo Slide Master với màu xanh lam + vàng (màu Toán học), font Nunito",
               "Slide 1 - Khởi động: hình ảnh + câu hỏi kích thích tư duy, animation reveal",
@@ -580,8 +580,8 @@ export const CHAPTERS = [
             ],
           },
           {
-            title: "B. Bài giảng Tiếng Việt lớp 2: Kể chuyện 'Cô bé quàng khăn đỏ' (35 phút)",
-            time: "35 phút",
+            title: "B. Bài giảng Tiếng Việt lớp 2: Kể chuyện 'Cô bé quàng khăn đỏ' ",
+            time: "",
             tasks: [
               "Slide nhân vật: layout 2 cột (hình + đặc điểm), animation từng đặc điểm",
               "Slide cốt truyện: timeline 5 sự kiện với animation sequential",
@@ -591,8 +591,8 @@ export const CHAPTERS = [
             ],
           },
           {
-            title: "C. Peer Review & Cải thiện (15 phút)",
-            time: "15 phút",
+            title: "C. Peer Review & Cải thiện ",
+            time: "",
             tasks: [
               "Đổi bài cho bạn bên cạnh, chấm theo rubric 5 tiêu chí (phiếu sẵn có)",
               "Viết 2 điểm tích cực + 1 đề xuất cải thiện cụ thể (không chung chung)",
@@ -613,7 +613,7 @@ export const CHAPTERS = [
         thamKhao: [],
       },
       {
-        id: 12, num: "Tiết 12", type: "lt",
+        id: 12, num: "", type: "lt",
         title: "Canva for Education — Thiết kế đồ họa giáo dục",
         duration: 45,
         mota: "Khai thác toàn bộ tính năng Canva for Education miễn phí để tạo học liệu trực quan đẹp và chuyên nghiệp.",
@@ -676,15 +676,15 @@ export const CHAPTERS = [
         thamKhao: [],
       },
       {
-        id: 13, num: "Tiết 13–14", type: "lab",
+        id: 13, num: "", type: "lab",
         title: "Lab 3: Bộ học liệu Canva cho chủ đề tích hợp",
         duration: 90,
         mota: "Thực hành tạo bộ học liệu đa dạng hoàn chỉnh gồm 4 sản phẩm cho 1 chủ đề học tập.",
         theory: [],
         labSteps: [
           {
-            title: "A. Flashcard bộ 20 thẻ (30 phút)",
-            time: "30 phút",
+            title: "A. Flashcard bộ 20 thẻ",
+            time: "",
             tasks: [
               "Chủ đề: 'Môi trường và bảo vệ môi trường' — Khoa học lớp 4",
               "Mặt trước: hình ảnh + từ khóa (rác thải, ô nhiễm, tái chế, năng lượng tái tạo...)",
@@ -694,8 +694,8 @@ export const CHAPTERS = [
             ],
           },
           {
-            title: "B. Infographic 'Vòng tuần hoàn nước' (25 phút)",
-            time: "25 phút",
+            title: "B. Infographic 'Vòng tuần hoàn nước' ",
+            time: "",
             tasks: [
               "Sơ đồ vòng tròn với 5 giai đoạn: bốc hơi → ngưng tụ → mưa → thấm → dòng chảy",
               "Mỗi giai đoạn: icon + nhãn + 1 câu giải thích ngắn",
@@ -704,8 +704,8 @@ export const CHAPTERS = [
             ],
           },
           {
-            title: "C. Worksheet 'Phân loại rác thải' (20 phút)",
-            time: "20 phút",
+            title: "C. Worksheet 'Phân loại rác thải' ",
+            time: "",
             tasks: [
               "Bảng 4 cột: Hữu cơ / Vô cơ / Tái chế / Nguy hại",
               "15 hình ảnh rác thải HS cần phân loại vào đúng cột",
@@ -714,8 +714,8 @@ export const CHAPTERS = [
             ],
           },
           {
-            title: "D. Poster kêu gọi hành động (15 phút)",
-            time: "15 phút",
+            title: "D. Poster kêu gọi hành động ",
+            time: "",
             tasks: [
               "Poster 'Hành động bảo vệ môi trường' — phong cách editorial tươi sáng",
               "6 hành động cụ thể HS có thể làm ngay",
@@ -737,7 +737,7 @@ export const CHAPTERS = [
         thamKhao: [],
       },
       {
-        id: 15, num: "Tiết 15", type: "lt",
+        id: 15, num: "", type: "lt",
         title: "Sản xuất video bài giảng — Từ kịch bản đến xuất bản",
         duration: 45,
         mota: "Quy trình sản xuất video bài giảng chất lượng cao từ khâu lên kịch bản đến xuất bản, sử dụng OBS Studio và CapCut Desktop.",
@@ -799,15 +799,15 @@ export const CHAPTERS = [
         thamKhao: ["Mayer, R.E. (2014). Principles for Reducing Extraneous Processing in Multimedia Learning."],
       },
       {
-        id: 16, num: "Tiết 16–17", type: "lab",
+        id: 16, num: "T", type: "lab",
         title: "Lab 4: Sản xuất video bài giảng 3–5 phút hoàn chỉnh",
         duration: 90,
         mota: "Thực hành toàn quy trình từ kịch bản → quay → dựng → xuất bản video bài giảng hoàn chỉnh.",
         theory: [],
         labSteps: [
           {
-            title: "A. Pre-production (20 phút)",
-            time: "20 phút",
+            title: "A. Pre-production ",
+            time: "",
             tasks: [
               "Chọn chủ đề: Phép cộng có nhớ (Toán 2) / Thực vật có hoa (KHTN 3) / Giới thiệu bản thân (TA 4)",
               "Viết kịch bản theo template: Hook (15s) → Mục tiêu (15s) → Nội dung 3 phần → Củng cố (30s) → CTA (15s)",
@@ -816,8 +816,8 @@ export const CHAPTERS = [
             ],
           },
           {
-            title: "B. Production — Quay (35 phút)",
-            time: "35 phút",
+            title: "B. Production — Quay ",
+            time: "",
             tasks: [
               "Cài đặt OBS: Scene 'Bài giảng' = Slide (Display Capture) + Webcam (PiP góc phải dưới)",
               "Thiết lập output: Settings → Output → Recording Quality = High Quality, Format = MP4",
@@ -827,8 +827,8 @@ export const CHAPTERS = [
             ],
           },
           {
-            title: "C. Post-production — Dựng video (25 phút)",
-            time: "25 phút",
+            title: "C. Post-production — Dựng video",
+            time: "",
             tasks: [
               "Mở CapCut Desktop → New Project → Import video file",
               "Cắt: xóa đầu cuối thừa, xóa đoạn ngập ngừng quá dài",
@@ -839,8 +839,8 @@ export const CHAPTERS = [
             ],
           },
           {
-            title: "D. Xuất bản và Review (10 phút)",
-            time: "10 phút",
+            title: "D. Xuất bản và Review ",
+            time: "",
             tasks: [
               "Upload lên Google Drive: tạo folder 'Video bài giảng', upload file, copy link chia sẻ",
               "Nộp link lên Google Classroom (cùng với file kịch bản)",
@@ -879,59 +879,59 @@ export const CHAPTERS = [
       { ten: "Google for Education Teacher Center", loai: "Hướng dẫn trực tuyến" },
     ],
     lessons: [
-      { id: 18, num: "Tiết 18", type: "lt", title: "LMS: Google Classroom & Microsoft Teams for Education", duration: 45, mota: "So sánh và phân tích chuyên sâu 2 nền tảng LMS phổ biến nhất tại trường TH Việt Nam.", theory: [], noiDungChinh: ["Tổng quan LMS: chức năng cốt lõi", "Google Classroom: Stream, Classwork, Grades, Guardian", "MS Teams: Assignments, Class Notebook, Insights", "Bảng so sánh 15 tiêu chí", "Chiến lược triển khai LMS cấp trường"], phuongPhap: ["So sánh trực tiếp", "Thảo luận kinh nghiệm"], chuanDauRa: "So sánh 2 LMS theo 15 tiêu chí, đưa ra khuyến nghị cho trường mình", exercises: [{ type: "medium", title: "So sánh LMS", question: "Lập bảng so sánh Google Classroom và MS Teams theo 15 tiêu chí: dễ dùng, hỗ trợ tiếng Việt, tích hợp phụ huynh, analytics, bảo mật, chi phí... Kết luận: trường TH mình nên dùng gì? Vì sao?", hint: "Thử cả 2 công cụ trong giờ Lab trước khi so sánh", output: "Bảng so sánh + khuyến nghị 1 trang" }], congCu: ["Google Classroom", "MS Teams for Education"], tags: ["LMS", "Google Classroom", "MS Teams", "So sánh"], thamKhao: [] },
-      { id: 19, num: "Tiết 19–20", type: "lab", title: "Lab 5: Quản lý lớp học Google Classroom toàn diện", duration: 90, mota: "Thực hành thiết lập và vận hành lớp học Google Classroom hoàn chỉnh từ tạo lớp đến phân tích kết quả.", theory: [], labSteps: [{ title: "A. Thiết lập lớp học (20 phút)", time: "20 phút", tasks: ["Tạo lớp với thông tin đầy đủ, banner Canva chuyên nghiệp", "Mời HS bằng code, kết nối phụ huynh Guardian", "Cài đặt: ai được đăng, điểm hiển thị, thông báo"] }, { title: "B. Bài tập & Chấm điểm (30 phút)", time: "30 phút", tasks: ["Tạo 4 loại bài tập: Assignment, Quiz Assignment, Material, Question", "Tạo rubric 4 tiêu chí × 4 mức cho bài văn", "Chấm điểm: comment inline, grade với rubric, trả bài"] }, { title: "C. Quiz tự chấm (25 phút)", time: "25 phút", tasks: ["Tạo Google Forms Quiz 15 câu: MCQ + Short Answer + Dropdown", "Cài đặt: 1 lần làm, shuffle, điểm ngay, feedback cho mỗi đáp án", "Phân tích: Summary, Item analysis, xuất Sheets"] }, { title: "D. Phân tích báo cáo (15 phút)", time: "15 phút", tasks: ["Gradebook: lọc, sắp xếp, xuất CSV", "Nhận diện HS cần hỗ trợ từ dữ liệu"] }], noiDungChinh: ["Thiết lập lớp hoàn chỉnh", "Các loại bài tập và chấm điểm", "Quiz tự chấm với Forms", "Phân tích dữ liệu học tập"], phuongPhap: ["Thực hành máy tính", "Đóng vai GV và HS"], chuanDauRa: "Vận hành lớp Classroom hoàn chỉnh: bài tập, rubric, quiz, gradebook, kết nối PH", congCu: ["Google Classroom", "Google Forms", "Google Sheets"], tags: ["Lab Classroom", "Rubric", "Quiz Forms", "Gradebook", "Guardian"], thamKhao: [] },
-      { id: 21, num: "Tiết 21", type: "lt", title: "Zoom/Google Meet: Kỹ thuật dạy học trực tuyến chuyên nghiệp", duration: 45, mota: "Chiến thuật và kỹ thuật tổ chức phòng học trực tuyến hiệu quả cho HS tiểu học — từ kỹ thuật quản lý đến xử lý sự cố.", theory: [{ title: "Quản lý HS tiểu học trên màn hình", content: "Dạy trực tuyến với HS tiểu học đòi hỏi kỹ thuật quản lý khác với người lớn do khả năng tự điều chỉnh của HS còn hạn chế.", points: ["Quy tắc 'màn hình im lặng': mute all khi GV giảng, raise hand để phát biểu", "Breakout Rooms: chuẩn bị nhiệm vụ rõ ràng trước khi chia nhóm", "Polling: kiểm tra hiểu bài mỗi 10 phút — dữ liệu thực để điều chỉnh", "Annotation: cho phép HS vẽ/viết lên màn hình chia sẻ", "Spotlight: hiển thị 1 HS trình bày — tập trung sự chú ý cả lớp"] }], noiDungChinh: ["So sánh Zoom / Meet / Teams", "Thiết lập phòng học ảo chuyên nghiệp", "Breakout Rooms, Polling, Annotation", "Ghi lại buổi học và chia sẻ", "Xử lý sự cố kỹ thuật"], phuongPhap: ["Demo live", "Roleplay xử lý sự cố"], chuanDauRa: "Tổ chức được phòng học 30 phút với đầy đủ tính năng tương tác cho HS TH", exercises: [{ type: "medium", title: "Kế hoạch tiết dạy online", question: "Thiết kế kế hoạch chi tiết 30 phút dạy trực tuyến (bài tự chọn): liệt kê từng hoạt động (thời gian, công cụ sử dụng, cách quản lý HS). Đặc biệt: lên kế hoạch B khi internet bị cắt hoặc HS không vào được.", hint: "Template: 5 phút check-in + 10 phút nội dung + 10 phút thực hành nhóm (Breakout) + 5 phút tổng kết", output: "Kế hoạch 1 trang có timeline chi tiết + kế hoạch B" }], congCu: ["Zoom (edu account)", "Google Meet", "Slido (thêm vào Meet)"], tags: ["Zoom", "Google Meet", "Breakout rooms", "Online teaching", "Quản lý lớp online"], thamKhao: [] },
-      { id: 22, num: "Tiết 22–23", type: "lab", title: "Lab 6: Mô phỏng tiết dạy trực tuyến + Kahoot!/Quizizz", duration: 90, mota: "Thực hành dạy thử 10 phút trực tuyến và thiết kế bộ công cụ game-based learning hoàn chỉnh.", theory: [], labSteps: [{ title: "A. Dạy thử trực tuyến (50 phút)", time: "50 phút", tasks: ["Chia nhóm 5-6, mỗi nhóm 1 phòng Zoom riêng", "Mỗi học viên dạy thử 8 phút với ≥2 tính năng tương tác", "Observer ghi phiếu quan sát trong lúc dạy", "Phản hồi: 2 điểm tích cực + 1 đề xuất cụ thể"] }, { title: "B. Thiết kế Kahoot! (25 phút)", time: "25 phút", tasks: ["Tạo Kahoot 15 câu theo chủ đề tự chọn: Quiz, True/False, Puzzle", "Hình ảnh cho mỗi câu, thời gian phù hợp lứa tuổi", "Phân bố Bloom: 8 Nhớ + 4 Hiểu + 3 Vận dụng", "Test live với cả lớp: phân tích analytics sau khi chơi"] }, { title: "C. Quizizz + Mentimeter (15 phút)", time: "15 phút", tasks: ["Quizizz: tạo quiz 10 câu với adaptive mode và homework deadline", "Mentimeter: tạo Word Cloud khởi động + Multiple Choice luyện tập"] }], noiDungChinh: ["Dạy thử trực tuyến với peer feedback", "Kahoot! 15 câu theo Bloom", "Quizizz adaptive", "Mentimeter Word Cloud"], phuongPhap: ["Mô phỏng", "Peer feedback", "Analytics thực tế"], chuanDauRa: "Dạy thử thành công 8 phút online + bộ 3 công cụ game-based hoàn chỉnh", congCu: ["Zoom", "Kahoot!", "Quizizz", "Mentimeter"], tags: ["Lab dạy trực tuyến", "Kahoot", "Quizizz", "Peer feedback"], thamKhao: [] },
-      { id: 24, num: "Tiết 24", type: "lt", title: "Padlet, Miro & Không gian cộng tác số", duration: 45, mota: "Công cụ cộng tác số tạo không gian học tập tương tác và trưng bày sản phẩm học tập của HS.", theory: [{ title: "Padlet — Bảng số đa năng cho lớp TH", content: "Padlet là không gian cộng tác trực tuyến linh hoạt, phù hợp nhiều hoạt động học tập từ brainstorming đến gallery walk kỹ thuật số.", points: ["Định dạng: Wall, Stream, Grid, Shelf, Map, Timeline — chọn theo hoạt động", "Moderation: duyệt bài trước khi hiển thị — quan trọng với HS tiểu học", "Ứng dụng: KWL chart, góc đọc sách, trưng bày sản phẩm, Q&A", "Padlet trong Classroom: giao bài trên Padlet, theo dõi đóng góp từng HS"] }], noiDungChinh: ["Padlet: 6 định dạng, moderation, ứng dụng GD", "Miro: sticky notes, voting, templates GD", "Wakelet: tổ chức và curate tài nguyên", "KWL Chart số hóa, Gallery Walk ảo", "Jigsaw Learning với Padlet"], phuongPhap: ["Demo + thực hành luân phiên", "Thiết kế hoạt động mẫu"], chuanDauRa: "Thiết kế được 3 hoạt động cộng tác số với Padlet và Miro", exercises: [{ type: "easy", title: "Thiết kế KWL Chart số", question: "Tạo 1 Padlet dạng Grid (3 cột) cho hoạt động KWL về chủ đề 'Nước và cuộc sống' lớp 3. Cột K (biết gì), W (muốn biết gì), L (học được gì). Thiết kế hướng dẫn cho HS sử dụng bằng QR code.", hint: "Padlet Grid: tạo 3 cột với tiêu đề K/W/L, đặt màu nền khác nhau, thêm icon. Tạo QR code tại qr.io", output: "Link Padlet hoàn chỉnh + QR code + hướng dẫn sử dụng 1 trang" }], congCu: ["Padlet", "Miro", "Wakelet", "QR Code Generator"], tags: ["Padlet", "Miro", "Cộng tác số", "KWL", "Gallery walk"], thamKhao: [] },
-      { id: 25, num: "Tiết 25–26", type: "bt", title: "Bài tập: Thiết kế chuỗi Blended Learning Station Rotation", duration: 90, mota: "Nhóm thiết kế chuỗi 5 station blended learning hoàn chỉnh cho 1 chủ đề học tập với timeline và đánh giá.", theory: [], noiDungChinh: ["Mô hình Station Rotation cho trường TH", "Thiết kế 5 stations: GV/online/nhóm/app/cả lớp", "Timeline xoay ca, quản lý thiết bị", "Rubric đánh giá tích hợp"], phuongPhap: ["Làm việc nhóm 4-5 người", "Thiết kế sáng tạo", "Trình bày poster"], chuanDauRa: "Thiết kế chuỗi BL Station Rotation hoàn chỉnh với timeline và phương án đánh giá", exercises: [{ type: "hard", title: "Dự án Blended Learning", question: "NHÓM 4-5 NGƯỜI. Thiết kế chuỗi 5 station blended learning cho 1 chủ đề (3 tiết học). 5 stations: (1) Làm việc với GV nhóm nhỏ 5-6 HS, (2) Học độc lập qua video + quiz Quizizz, (3) Cộng tác nhóm dự án nhỏ, (4) Luyện tập thích ứng (Khan Academy/app phù hợp), (5) Chia sẻ cả lớp + Kahoot. Tính timeline rotation, nguồn lực cần có, phương án đánh giá.", hint: "Mỗi station 15-20 phút. Vẽ sơ đồ lớp học với vị trí từng station. Dùng Canva vẽ infographic minh họa.", output: "Poster A1 in màu + slide trình bày 8 phút + đề cương hoạt động chi tiết" }], congCu: ["Canva (poster)", "Google Slides", "Quizizz", "Kahoot"], tags: ["Blended learning", "Station rotation", "Nhóm", "Rubric"], thamKhao: [] },
-      { id: 27, num: "Tiết 27", type: "kt", title: "Kiểm tra Chương 2 & 3 — Thực hành tổng hợp", duration: 90, mota: "Kiểm tra thực hành: thiết kế hoạt động dạy học tương tác hoàn chỉnh trong 90 phút.", theory: [], noiDungChinh: ["Phần 1 (20p): 25 câu trắc nghiệm Quizizz", "Phần 2 (50p): Thiết kế hoạt động dạy học số hoàn chỉnh (slides + quiz + cộng tác)", "Phần 3 (20p): Demo 5 phút nhóm giám khảo"], phuongPhap: ["Thi cá nhân", "Demo nhóm nhỏ"], chuanDauRa: "Đạt 70/100 điểm; thiết kế và demo hoạt động dạy học số tổng hợp nhiều công cụ", congCu: ["Quizizz (trắc nghiệm)", "Tất cả công cụ đã học"], tags: ["Kiểm tra thực hành", "Rubric 5 tiêu chí"], thamKhao: [] },
+      { id: 18, num: "", type: "lt", title: "LMS: Google Classroom & Microsoft Teams for Education", duration: 45, mota: "So sánh và phân tích chuyên sâu 2 nền tảng LMS phổ biến nhất tại trường TH Việt Nam.", theory: [], noiDungChinh: ["Tổng quan LMS: chức năng cốt lõi", "Google Classroom: Stream, Classwork, Grades, Guardian", "MS Teams: Assignments, Class Notebook, Insights", "Bảng so sánh 15 tiêu chí", "Chiến lược triển khai LMS cấp trường"], phuongPhap: ["So sánh trực tiếp", "Thảo luận kinh nghiệm"], chuanDauRa: "So sánh 2 LMS theo 15 tiêu chí, đưa ra khuyến nghị cho trường mình", exercises: [{ type: "medium", title: "So sánh LMS", question: "Lập bảng so sánh Google Classroom và MS Teams theo 15 tiêu chí: dễ dùng, hỗ trợ tiếng Việt, tích hợp phụ huynh, analytics, bảo mật, chi phí... Kết luận: trường TH mình nên dùng gì? Vì sao?", hint: "Thử cả 2 công cụ trong giờ Lab trước khi so sánh", output: "Bảng so sánh + khuyến nghị 1 trang" }], congCu: ["Google Classroom", "MS Teams for Education"], tags: ["LMS", "Google Classroom", "MS Teams", "So sánh"], thamKhao: [] },
+      { id: 19, num: "", type: "lab", title: "Lab 5: Quản lý lớp học Google Classroom toàn diện", duration: 90, mota: "Thực hành thiết lập và vận hành lớp học Google Classroom hoàn chỉnh từ tạo lớp đến phân tích kết quả.", theory: [], labSteps: [{ title: "A. Thiết lập lớp học", time: "", tasks: ["Tạo lớp với thông tin đầy đủ, banner Canva chuyên nghiệp", "Mời HS bằng code, kết nối phụ huynh Guardian", "Cài đặt: ai được đăng, điểm hiển thị, thông báo"] }, { title: "B. Bài tập & Chấm điểm", time: "", tasks: ["Tạo 4 loại bài tập: Assignment, Quiz Assignment, Material, Question", "Tạo rubric 4 tiêu chí × 4 mức cho bài văn", "Chấm điểm: comment inline, grade với rubric, trả bài"] }, { title: "C. Quiz tự chấm", time: "", tasks: ["Tạo Google Forms Quiz 15 câu: MCQ + Short Answer + Dropdown", "Cài đặt: 1 lần làm, shuffle, điểm ngay, feedback cho mỗi đáp án", "Phân tích: Summary, Item analysis, xuất Sheets"] }, { title: "D. Phân tích báo cáo", time: "", tasks: ["Gradebook: lọc, sắp xếp, xuất CSV", "Nhận diện HS cần hỗ trợ từ dữ liệu"] }], noiDungChinh: ["Thiết lập lớp hoàn chỉnh", "Các loại bài tập và chấm điểm", "Quiz tự chấm với Forms", "Phân tích dữ liệu học tập"], phuongPhap: ["Thực hành máy tính", "Đóng vai GV và HS"], chuanDauRa: "Vận hành lớp Classroom hoàn chỉnh: bài tập, rubric, quiz, gradebook, kết nối PH", congCu: ["Google Classroom", "Google Forms", "Google Sheets"], tags: ["Lab Classroom", "Rubric", "Quiz Forms", "Gradebook", "Guardian"], thamKhao: [] },
+      { id: 21, num: "", type: "lt", title: "Zoom/Google Meet: Kỹ thuật dạy học trực tuyến chuyên nghiệp", duration: 45, mota: "Chiến thuật và kỹ thuật tổ chức phòng học trực tuyến hiệu quả cho HS tiểu học — từ kỹ thuật quản lý đến xử lý sự cố.", theory: [{ title: "Quản lý HS tiểu học trên màn hình", content: "Dạy trực tuyến với HS tiểu học đòi hỏi kỹ thuật quản lý khác với người lớn do khả năng tự điều chỉnh của HS còn hạn chế.", points: ["Quy tắc 'màn hình im lặng': mute all khi GV giảng, raise hand để phát biểu", "Breakout Rooms: chuẩn bị nhiệm vụ rõ ràng trước khi chia nhóm", "Polling: kiểm tra hiểu bài mỗi — dữ liệu thực để điều chỉnh", "Annotation: cho phép HS vẽ/viết lên màn hình chia sẻ", "Spotlight: hiển thị 1 HS trình bày — tập trung sự chú ý cả lớp"] }], noiDungChinh: ["So sánh Zoom / Meet / Teams", "Thiết lập phòng học ảo chuyên nghiệp", "Breakout Rooms, Polling, Annotation", "Ghi lại buổi học và chia sẻ", "Xử lý sự cố kỹ thuật"], phuongPhap: ["Demo live", "Roleplay xử lý sự cố"], chuanDauRa: "Tổ chức được phòng học với đầy đủ tính năng tương tác cho HS TH", exercises: [{ type: "medium", title: "Kế hoạch tiết dạy online", question: "Thiết kế kế hoạch chi tiết dạy trực tuyến (bài tự chọn): liệt kê từng hoạt động (thời gian, công cụ sử dụng, cách quản lý HS). Đặc biệt: lên kế hoạch B khi internet bị cắt hoặc HS không vào được.", hint: "Template: check-in + nội dung + thực hành nhóm (Breakout) + tổng kết", output: "Kế hoạch 1 trang có timeline chi tiết + kế hoạch B" }], congCu: ["Zoom (edu account)", "Google Meet", "Slido (thêm vào Meet)"], tags: ["Zoom", "Google Meet", "Breakout rooms", "Online teaching", "Quản lý lớp online"], thamKhao: [] },
+      { id: 22, num: "", type: "lab", title: "Lab 6: Mô phỏng tiết dạy trực tuyến + Kahoot!/Quizizz", duration: 90, mota: "Thực hành dạy thử trực tuyến và thiết kế bộ công cụ game-based learning hoàn chỉnh.", theory: [], labSteps: [{ title: "A. Dạy thử trực tuyến", time: "", tasks: ["Chia nhóm 5-6, mỗi nhóm 1 phòng Zoom riêng", "Mỗi học viên dạy thử với ≥2 tính năng tương tác", "Observer ghi phiếu quan sát trong lúc dạy", "Phản hồi: 2 điểm tích cực + 1 đề xuất cụ thể"] }, { title: "B. Thiết kế Kahoot!", time: "", tasks: ["Tạo Kahoot 15 câu theo chủ đề tự chọn: Quiz, True/False, Puzzle", "Hình ảnh cho mỗi câu, thời gian phù hợp lứa tuổi", "Phân bố Bloom: 8 Nhớ + 4 Hiểu + 3 Vận dụng", "Test live với cả lớp: phân tích analytics sau khi chơi"] }, { title: "C. Quizizz + Mentimeter", time: "", tasks: ["Quizizz: tạo quiz 10 câu với adaptive mode và homework deadline", "Mentimeter: tạo Word Cloud khởi động + Multiple Choice luyện tập"] }], noiDungChinh: ["Dạy thử trực tuyến với peer feedback", "Kahoot! 15 câu theo Bloom", "Quizizz adaptive", "Mentimeter Word Cloud"], phuongPhap: ["Mô phỏng", "Peer feedback", "Analytics thực tế"], chuanDauRa: "Dạy thử thành công online + bộ 3 công cụ game-based hoàn chỉnh", congCu: ["Zoom", "Kahoot!", "Quizizz", "Mentimeter"], tags: ["Lab dạy trực tuyến", "Kahoot", "Quizizz", "Peer feedback"], thamKhao: [] },
+      { id: 24, num: "", type: "lt", title: "Padlet, Miro & Không gian cộng tác số", duration: 45, mota: "Công cụ cộng tác số tạo không gian học tập tương tác và trưng bày sản phẩm học tập của HS.", theory: [{ title: "Padlet — Bảng số đa năng cho lớp TH", content: "Padlet là không gian cộng tác trực tuyến linh hoạt, phù hợp nhiều hoạt động học tập từ brainstorming đến gallery walk kỹ thuật số.", points: ["Định dạng: Wall, Stream, Grid, Shelf, Map, Timeline — chọn theo hoạt động", "Moderation: duyệt bài trước khi hiển thị — quan trọng với HS tiểu học", "Ứng dụng: KWL chart, góc đọc sách, trưng bày sản phẩm, Q&A", "Padlet trong Classroom: giao bài trên Padlet, theo dõi đóng góp từng HS"] }], noiDungChinh: ["Padlet: 6 định dạng, moderation, ứng dụng GD", "Miro: sticky notes, voting, templates GD", "Wakelet: tổ chức và curate tài nguyên", "KWL Chart số hóa, Gallery Walk ảo", "Jigsaw Learning với Padlet"], phuongPhap: ["Demo + thực hành luân phiên", "Thiết kế hoạt động mẫu"], chuanDauRa: "Thiết kế được 3 hoạt động cộng tác số với Padlet và Miro", exercises: [{ type: "easy", title: "Thiết kế KWL Chart số", question: "Tạo 1 Padlet dạng Grid (3 cột) cho hoạt động KWL về chủ đề 'Nước và cuộc sống' lớp 3. Cột K (biết gì), W (muốn biết gì), L (học được gì). Thiết kế hướng dẫn cho HS sử dụng bằng QR code.", hint: "Padlet Grid: tạo 3 cột với tiêu đề K/W/L, đặt màu nền khác nhau, thêm icon. Tạo QR code tại qr.io", output: "Link Padlet hoàn chỉnh + QR code + hướng dẫn sử dụng 1 trang" }], congCu: ["Padlet", "Miro", "Wakelet", "QR Code Generator"], tags: ["Padlet", "Miro", "Cộng tác số", "KWL", "Gallery walk"], thamKhao: [] },
+      { id: 25, num: "", type: "bt", title: "Bài tập: Thiết kế chuỗi Blended Learning Station Rotation", duration: 90, mota: "Nhóm thiết kế chuỗi 5 station blended learning hoàn chỉnh cho 1 chủ đề học tập với timeline và đánh giá.", theory: [], noiDungChinh: ["Mô hình Station Rotation cho trường TH", "Thiết kế 5 stations: GV/online/nhóm/app/cả lớp", "Timeline xoay ca, quản lý thiết bị", "Rubric đánh giá tích hợp"], phuongPhap: ["Làm việc nhóm 4-5 người", "Thiết kế sáng tạo", "Trình bày poster"], chuanDauRa: "Thiết kế chuỗi BL Station Rotation hoàn chỉnh với timeline và phương án đánh giá", exercises: [{ type: "hard", title: "Dự án Blended Learning", question: "NHÓM 4-5 NGƯỜI. Thiết kế chuỗi 5 station blended learning cho 1 chủ đề (3 tiết học). 5 stations: (1) Làm việc với GV nhóm nhỏ 5-6 HS, (2) Học độc lập qua video + quiz Quizizz, (3) Cộng tác nhóm dự án nhỏ, (4) Luyện tập thích ứng (Khan Academy/app phù hợp), (5) Chia sẻ cả lớp + Kahoot. Tính timeline rotation, nguồn lực cần có, phương án đánh giá.", hint: "Mỗi station 15-20 phút. Vẽ sơ đồ lớp học với vị trí từng station. Dùng Canva vẽ infographic minh họa.", output: "Poster A1 in màu + slide trình bày + đề cương hoạt động chi tiết" }], congCu: ["Canva (poster)", "Google Slides", "Quizizz", "Kahoot"], tags: ["Blended learning", "Station rotation", "Nhóm", "Rubric"], thamKhao: [] },
+      { id: 27, num: "", type: "kt", title: "Kiểm tra Chương 2 & 3 — Thực hành tổng hợp", duration: 90, mota: "Kiểm tra thực hành: thiết kế hoạt động dạy học tương tác hoàn chỉnh trong.", theory: [], noiDungChinh: ["Phần 1 (20p): 25 câu trắc nghiệm Quizizz", "Phần 2 (50p): Thiết kế hoạt động dạy học số hoàn chỉnh (slides + quiz + cộng tác)", "Phần 3 (20p): Demo nhóm giám khảo"], phuongPhap: ["Thi cá nhân", "Demo nhóm nhỏ"], chuanDauRa: "Đạt 70/100 điểm; thiết kế và demo hoạt động dạy học số tổng hợp nhiều công cụ", congCu: ["Quizizz (trắc nghiệm)", "Tất cả công cụ đã học"], tags: ["Kiểm tra thực hành", "Rubric 5 tiêu chí"], thamKhao: [] },
     ],
   },
   {
     id: 4, slug: "danh-gia-so",
     title: "Đánh giá số & Dữ liệu học tập",
     emoji: "♶", color: "#7e22ce", bgLight: "#f3e8ff",
-    tietRange: "28–34", soTiet: 7,
+    tietRange: "", soTiet: 7,
     description: "Xây dựng hệ thống đánh giá số toàn diện: quiz tự động, rubric số, e-portfolio và phân tích dữ liệu học tập để ra quyết định dạy học dựa trên dữ liệu.",
     mucTieu: ["Thiết kế hệ thống đánh giá số phù hợp TT27/2020", "Tạo quiz tự chấm và rubric số với Google Forms", "Xây dựng e-portfolio với Seesaw và Book Creator", "Phân tích dữ liệu học tập với Google Sheets", "Kết nối phụ huynh qua công nghệ chuyên nghiệp"],
     taiLieu: [{ ten: "TT27/2020/TT-BGDĐT về đánh giá HS TH", loai: "Văn bản pháp quy" }, { ten: "Wiliam (2011). Embedded Formative Assessment", loai: "Sách" }, { ten: "Seesaw for Schools Guide", loai: "Hướng dẫn" }],
     lessons: [
-      { id: 28, num: "Tiết 28", type: "lt", title: "Hệ thống đánh giá số theo TT27/2020", duration: 45, mota: "Thiết kế hệ thống đánh giá số toàn diện cho HS tiểu học phù hợp quy định pháp lý và khoa học đánh giá.", theory: [{ title: "Ba mục đích đánh giá và công cụ số tương ứng", content: "Đánh giá hiệu quả cần có mục đích rõ ràng. Mỗi mục đích đánh giá phù hợp với công cụ số khác nhau.", points: ["Assessment FOR Learning: exit ticket Google Forms, Mentimeter traffic light, Zoom reaction", "Assessment OF Learning: quiz Quizizz/Forms tự chấm, rubric số Classroom", "Assessment AS Learning: portfolio Seesaw, peer assessment Padlet, self-reflection form"] }], noiDungChinh: ["TT27/2020: nhận xét + điểm số cho HS TH", "3 mục đích đánh giá và công cụ số", "Rubric số: thiết kế, chia sẻ, sử dụng", "Exit ticket: 5 kỹ thuật nhanh", "Bảo mật dữ liệu HS trong đánh giá số"], phuongPhap: ["Thuyết trình", "Phân tích mẫu rubric", "Thiết kế nhanh"], chuanDauRa: "Phân loại công cụ đánh giá số theo mục đích, thiết kế rubric 4 tiêu chí", exercises: [{ type: "medium", title: "Thiết kế rubric số", question: "Thiết kế rubric đánh giá bài 'Kể chuyện' cho HS lớp 3 với 4 tiêu chí: nội dung, diễn đạt, phong thái, sáng tạo. Mỗi tiêu chí có 4 mức độ với mô tả cụ thể, đo lường được. Nhập rubric vào Google Classroom.", hint: "Mức 4: Xuất sắc / Mức 3: Đạt / Mức 2: Đang phát triển / Mức 1: Cần hỗ trợ — mô tả hành vi quan sát được", output: "Rubric số trong Google Classroom + file PDF rubric để in" }], congCu: ["Google Classroom (rubric)", "Google Forms", "Mentimeter"], tags: ["Đánh giá số", "TT27/2020", "Rubric", "Exit ticket", "Formative assessment"], thamKhao: [] },
-      { id: 29, num: "Tiết 29–30", type: "lab", title: "Lab 7: Google Forms — Hệ thống đánh giá tự chấm + Phân tích", duration: 90, mota: "Thực hành tạo đề kiểm tra tự chấm và dashboard phân tích kết quả lớp học.", theory: [], labSteps: [{ title: "A. Đề kiểm tra Toán tự chấm (35 phút)", time: "35 phút", tasks: ["Tạo Forms Quiz: Toán lớp 4, 20 điểm, 45 phút", "10 câu MCQ (Biết 4, Hiểu 4, Vận dụng 2)", "3 câu Short Answer với validation số học", "2 câu Paragraph (GV chấm thủ công)", "Feedback tự động: đúng → giải thích; sai → gợi ý xem lại", "Cài đặt: 1 lần làm, shuffle, timer, không xem điểm ngay"] }, { title: "B. Phiếu đánh giá thường xuyên (20 phút)", time: "20 phút", tasks: ["Exit ticket 3-2-1: 3 điều học / 2 băn khoăn / 1 sẽ thử", "Peer assessment: đánh giá thuyết trình bạn theo rubric", "KWL check: so sánh trước-sau học bài"] }, { title: "C. Dashboard phân tích kết quả (35 phút)", time: "35 phút", tasks: ["Xuất kết quả Forms → Google Sheets", "Conditional formatting: xanh >80%, vàng 50-80%, đỏ <50%", "Tạo Pivot Table: điểm TB theo nhóm câu hỏi (biết/hiểu/VD)", "Biểu đồ histogram phân bố điểm", "Xác định HS cần bồi dưỡng/phụ đạo từ dữ liệu"] }], noiDungChinh: ["Đề kiểm tra Forms tự chấm với feedback tự động", "Phiếu đánh giá thường xuyên", "Dashboard Google Sheets phân tích lớp"], phuongPhap: ["Thực hành máy tính", "Phân tích cùng nhau"], chuanDauRa: "Tạo đề Forms hoàn chỉnh với feedback + dashboard phân tích kết quả chuyên sâu", congCu: ["Google Forms", "Google Sheets", "Pivot Table"], tags: ["Lab Forms", "Quiz tự chấm", "Item analysis", "Dashboard", "Conditional formatting"], thamKhao: [] },
-      { id: 31, num: "Tiết 31", type: "lt", title: "E-portfolio với Seesaw & Book Creator", duration: 45, mota: "Thiết kế và triển khai hệ thống e-portfolio theo dõi tiến trình học tập HS tiểu học.", theory: [{ title: "Seesaw — Platform e-portfolio chuyên cho trẻ em", content: "Seesaw được thiết kế đặc biệt cho HS nhỏ tuổi với giao diện thân thiện, đơn giản và bảo mật cao.", points: ["HS đăng sản phẩm: ảnh bài làm, video đọc bài, audio ghi chú, bản vẽ", "GV nhận xét đa dạng: text, voice, video comment — phụ huynh xem và phản hồi", "QR code login cho HS lớp 1-2 không cần nhớ mật khẩu", "Seesaw Learning Journal: tự động sắp xếp theo dòng thời gian"] }], noiDungChinh: ["Seesaw: tính năng, QR login, Activities, Journal", "Book Creator: sách số đa phương tiện", "Google Sites cho HS lớp 4-5", "Quy trình triển khai e-portfolio", "Bảo mật và quyền riêng tư"], phuongPhap: ["Demo 3 công cụ song song", "Phân tích portfolio mẫu"], chuanDauRa: "So sánh 3 công cụ e-portfolio và thiết kế kế hoạch triển khai cho lớp mình", exercises: [{ type: "medium", title: "Kế hoạch e-portfolio", question: "Thiết kế kế hoạch triển khai e-portfolio Seesaw cho lớp của bạn trong 1 học kỳ: (1) Tuần 1: thiết lập và hướng dẫn HS, (2) Activities theo tháng, (3) Cách kết nối phụ huynh, (4) Buổi triển lãm cuối kỳ.", hint: "Xác định: HS sẽ đăng gì? Bao nhiêu lần/tuần? GV review khi nào? PH tương tác thế nào?", output: "Kế hoạch 1 học kỳ dạng timeline (Canva hoặc Google Slides)" }], congCu: ["Seesaw (free edu)", "Book Creator", "Google Sites"], tags: ["Seesaw", "Book Creator", "E-portfolio", "QR code login", "Privacy"], thamKhao: [] },
-      { id: 32, num: "Tiết 32–33", type: "lab", title: "Lab 8: Seesaw + Book Creator — Thực hành e-portfolio", duration: 90, mota: "Thực hành xây dựng hệ thống e-portfolio hoàn chỉnh, đóng vai cả GV lẫn HS.", theory: [], labSteps: [{ title: "A. Thiết lập lớp Seesaw — Vai GV (30 phút)", time: "30 phút", tasks: ["Tạo lớp Seesaw, import HS bằng CSV, kết nối phụ huynh", "Tạo 3 Activities: Record âm thanh đọc bài / Chụp ảnh bài + voice explain / Text phản ánh", "Thiết lập: ai có thể thấy gì, moderation, thông báo PH"] }, { title: "B. Trải nghiệm Seesaw — Vai HS (30 phút)", time: "30 phút", tasks: ["Đăng nhập bằng QR code (như HS lớp 1-3)", "Hoàn thành 3 activities: record âm thanh, chụp ảnh + giải thích, vẽ + text", "GV nhận xét bằng voice comment"] }, { title: "C. Book Creator Portfolio (30 phút)", time: "30 phút", tasks: ["Tạo 'Hồ sơ học tập HK1' bằng Book Creator", "Trang 1: giới thiệu (ảnh, tên, sở thích)", "Trang 2-3: 2 bài học tốt nhất (ảnh + voice giải thích)", "Trang 4: mục tiêu HK2 (vẽ + viết)", "Xuất PDF và share link có mật khẩu cho PH"] }], noiDungChinh: ["Thiết lập Seesaw hoàn chỉnh", "Trải nghiệm đóng vai HS", "Book Creator portfolio 4 trang"], phuongPhap: ["Đóng vai GV/HS luân phiên", "Thực hành trên 2 thiết bị"], chuanDauRa: "Vận hành Seesaw hoàn chỉnh + tạo Book Creator portfolio mẫu", congCu: ["Seesaw (web + app)", "Book Creator (web)", "Google Classroom"], tags: ["Lab Seesaw", "Book Creator", "QR code", "Voice comment", "Privacy"], thamKhao: [] },
-      { id: 34, num: "Tiết 34", type: "tt", title: "Thực tiễn: Dữ liệu học tập & Kết nối phụ huynh qua công nghệ", duration: 45, mota: "Phân tích dữ liệu học tập để ra quyết định giảng dạy và xây dựng kênh giao tiếp chuyên nghiệp với phụ huynh.", theory: [], noiDungChinh: ["Data-driven teaching: vòng lặp phân tích dữ liệu", "Google Sheets: hàm thống kê, Pivot Table, biểu đồ", "Dashboard học tập lớp: conditional formatting, sparklines", "Kênh giao tiếp GV-PH: Seesaw, email, newsletter Canva", "Họp phụ huynh trực tuyến chuyên nghiệp"], phuongPhap: ["Case study", "Roleplay tình huống", "Thiết kế newsletter"], chuanDauRa: "Xây dựng dashboard Google Sheets 40 HS và thiết kế newsletter lớp học mẫu", exercises: [{ type: "medium", title: "Newsletter lớp học", question: "Thiết kế newsletter tuần cho phụ huynh bằng Canva gồm 5 mục: Tuần này học gì, Bài tập về nhà, Sự kiện sắp tới, Gương sáng lớp, Lời khuyên cho PH. Thiết kế template nhất quán cho 4 tuần.", hint: "Canva có sẵn 'Newsletter' template — tìm và customize. Kích thước A4 đứng. Màu sắc nhất quán với theme lớp.", output: "Template newsletter 1 tuần hoàn chỉnh + kế hoạch 4 tuần" }], congCu: ["Google Sheets", "Canva (newsletter)", "Seesaw", "Google Meet"], tags: ["Data-driven", "Google Sheets", "Newsletter", "PH kết nối", "Dashboard"], thamKhao: [] },
+      { id: 28, num: "", type: "lt", title: "Hệ thống đánh giá số theo TT27/2020", duration: 45, mota: "Thiết kế hệ thống đánh giá số toàn diện cho HS tiểu học phù hợp quy định pháp lý và khoa học đánh giá.", theory: [{ title: "Ba mục đích đánh giá và công cụ số tương ứng", content: "Đánh giá hiệu quả cần có mục đích rõ ràng. Mỗi mục đích đánh giá phù hợp với công cụ số khác nhau.", points: ["Assessment FOR Learning: exit ticket Google Forms, Mentimeter traffic light, Zoom reaction", "Assessment OF Learning: quiz Quizizz/Forms tự chấm, rubric số Classroom", "Assessment AS Learning: portfolio Seesaw, peer assessment Padlet, self-reflection form"] }], noiDungChinh: ["TT27/2020: nhận xét + điểm số cho HS TH", "3 mục đích đánh giá và công cụ số", "Rubric số: thiết kế, chia sẻ, sử dụng", "Exit ticket: 5 kỹ thuật nhanh", "Bảo mật dữ liệu HS trong đánh giá số"], phuongPhap: ["Thuyết trình", "Phân tích mẫu rubric", "Thiết kế nhanh"], chuanDauRa: "Phân loại công cụ đánh giá số theo mục đích, thiết kế rubric 4 tiêu chí", exercises: [{ type: "medium", title: "Thiết kế rubric số", question: "Thiết kế rubric đánh giá bài 'Kể chuyện' cho HS lớp 3 với 4 tiêu chí: nội dung, diễn đạt, phong thái, sáng tạo. Mỗi tiêu chí có 4 mức độ với mô tả cụ thể, đo lường được. Nhập rubric vào Google Classroom.", hint: "Mức 4: Xuất sắc / Mức 3: Đạt / Mức 2: Đang phát triển / Mức 1: Cần hỗ trợ — mô tả hành vi quan sát được", output: "Rubric số trong Google Classroom + file PDF rubric để in" }], congCu: ["Google Classroom (rubric)", "Google Forms", "Mentimeter"], tags: ["Đánh giá số", "TT27/2020", "Rubric", "Exit ticket", "Formative assessment"], thamKhao: [] },
+      { id: 29, num: "", type: "lab", title: "Lab 7: Google Forms — Hệ thống đánh giá tự chấm + Phân tích", duration: 90, mota: "Thực hành tạo đề kiểm tra tự chấm và dashboard phân tích kết quả lớp học.", theory: [], labSteps: [{ title: "A. Đề kiểm tra Toán tự chấm ", time: "", tasks: ["Tạo Forms Quiz: Toán lớp 4, 20 điểm", "10 câu MCQ (Biết 4, Hiểu 4, Vận dụng 2)", "3 câu Short Answer với validation số học", "2 câu Paragraph (GV chấm thủ công)", "Feedback tự động: đúng → giải thích; sai → gợi ý xem lại", "Cài đặt: 1 lần làm, shuffle, timer, không xem điểm ngay"] }, { title: "B. Phiếu đánh giá thường xuyên", time: "", tasks: ["Exit ticket 3-2-1: 3 điều học / 2 băn khoăn / 1 sẽ thử", "Peer assessment: đánh giá thuyết trình bạn theo rubric", "KWL check: so sánh trước-sau học bài"] }, { title: "C. Dashboard phân tích kết quả", time: "", tasks: ["Xuất kết quả Forms → Google Sheets", "Conditional formatting: xanh >80%, vàng 50-80%, đỏ <50%", "Tạo Pivot Table: điểm TB theo nhóm câu hỏi (biết/hiểu/VD)", "Biểu đồ histogram phân bố điểm", "Xác định HS cần bồi dưỡng/phụ đạo từ dữ liệu"] }], noiDungChinh: ["Đề kiểm tra Forms tự chấm với feedback tự động", "Phiếu đánh giá thường xuyên", "Dashboard Google Sheets phân tích lớp"], phuongPhap: ["Thực hành máy tính", "Phân tích cùng nhau"], chuanDauRa: "Tạo đề Forms hoàn chỉnh với feedback + dashboard phân tích kết quả chuyên sâu", congCu: ["Google Forms", "Google Sheets", "Pivot Table"], tags: ["Lab Forms", "Quiz tự chấm", "Item analysis", "Dashboard", "Conditional formatting"], thamKhao: [] },
+      { id: 31, num: "", type: "lt", title: "E-portfolio với Seesaw & Book Creator", duration: 45, mota: "Thiết kế và triển khai hệ thống e-portfolio theo dõi tiến trình học tập HS tiểu học.", theory: [{ title: "Seesaw — Platform e-portfolio chuyên cho trẻ em", content: "Seesaw được thiết kế đặc biệt cho HS nhỏ tuổi với giao diện thân thiện, đơn giản và bảo mật cao.", points: ["HS đăng sản phẩm: ảnh bài làm, video đọc bài, audio ghi chú, bản vẽ", "GV nhận xét đa dạng: text, voice, video comment — phụ huynh xem và phản hồi", "QR code login cho HS lớp 1-2 không cần nhớ mật khẩu", "Seesaw Learning Journal: tự động sắp xếp theo dòng thời gian"] }], noiDungChinh: ["Seesaw: tính năng, QR login, Activities, Journal", "Book Creator: sách số đa phương tiện", "Google Sites cho HS lớp 4-5", "Quy trình triển khai e-portfolio", "Bảo mật và quyền riêng tư"], phuongPhap: ["Demo 3 công cụ song song", "Phân tích portfolio mẫu"], chuanDauRa: "So sánh 3 công cụ e-portfolio và thiết kế kế hoạch triển khai cho lớp mình", exercises: [{ type: "medium", title: "Kế hoạch e-portfolio", question: "Thiết kế kế hoạch triển khai e-portfolio Seesaw cho lớp của bạn trong 1 học kỳ: (1) Tuần 1: thiết lập và hướng dẫn HS, (2) Activities theo tháng, (3) Cách kết nối phụ huynh, (4) Buổi triển lãm cuối kỳ.", hint: "Xác định: HS sẽ đăng gì? Bao nhiêu lần/tuần? GV review khi nào? PH tương tác thế nào?", output: "Kế hoạch 1 học kỳ dạng timeline (Canva hoặc Google Slides)" }], congCu: ["Seesaw (free edu)", "Book Creator", "Google Sites"], tags: ["Seesaw", "Book Creator", "E-portfolio", "QR code login", "Privacy"], thamKhao: [] },
+      { id: 32, num: "", type: "lab", title: "Lab 8: Seesaw + Book Creator — Thực hành e-portfolio", duration: 90, mota: "Thực hành xây dựng hệ thống e-portfolio hoàn chỉnh, đóng vai cả GV lẫn HS.", theory: [], labSteps: [{ title: "A. Thiết lập lớp Seesaw — Vai GV ", time: "", tasks: ["Tạo lớp Seesaw, import HS bằng CSV, kết nối phụ huynh", "Tạo 3 Activities: Record âm thanh đọc bài / Chụp ảnh bài + voice explain / Text phản ánh", "Thiết lập: ai có thể thấy gì, moderation, thông báo PH"] }, { title: "B. Trải nghiệm Seesaw — Vai HS", time: "", tasks: ["Đăng nhập bằng QR code (như HS lớp 1-3)", "Hoàn thành 3 activities: record âm thanh, chụp ảnh + giải thích, vẽ + text", "GV nhận xét bằng voice comment"] }, { title: "C. Book Creator Portfolio", time: "", tasks: ["Tạo 'Hồ sơ học tập HK1' bằng Book Creator", "Trang 1: giới thiệu (ảnh, tên, sở thích)", "Trang 2-3: 2 bài học tốt nhất (ảnh + voice giải thích)", "Trang 4: mục tiêu HK2 (vẽ + viết)", "Xuất PDF và share link có mật khẩu cho PH"] }], noiDungChinh: ["Thiết lập Seesaw hoàn chỉnh", "Trải nghiệm đóng vai HS", "Book Creator portfolio 4 trang"], phuongPhap: ["Đóng vai GV/HS luân phiên", "Thực hành trên 2 thiết bị"], chuanDauRa: "Vận hành Seesaw hoàn chỉnh + tạo Book Creator portfolio mẫu", congCu: ["Seesaw (web + app)", "Book Creator (web)", "Google Classroom"], tags: ["Lab Seesaw", "Book Creator", "QR code", "Voice comment", "Privacy"], thamKhao: [] },
+      { id: 34, num: "", type: "tt", title: "Thực tiễn: Dữ liệu học tập & Kết nối phụ huynh qua công nghệ", duration: 45, mota: "Phân tích dữ liệu học tập để ra quyết định giảng dạy và xây dựng kênh giao tiếp chuyên nghiệp với phụ huynh.", theory: [], noiDungChinh: ["Data-driven teaching: vòng lặp phân tích dữ liệu", "Google Sheets: hàm thống kê, Pivot Table, biểu đồ", "Dashboard học tập lớp: conditional formatting, sparklines", "Kênh giao tiếp GV-PH: Seesaw, email, newsletter Canva", "Họp phụ huynh trực tuyến chuyên nghiệp"], phuongPhap: ["Case study", "Roleplay tình huống", "Thiết kế newsletter"], chuanDauRa: "Xây dựng dashboard Google Sheets 40 HS và thiết kế newsletter lớp học mẫu", exercises: [{ type: "medium", title: "Newsletter lớp học", question: "Thiết kế newsletter tuần cho phụ huynh bằng Canva gồm 5 mục: Tuần này học gì, Bài tập về nhà, Sự kiện sắp tới, Gương sáng lớp, Lời khuyên cho PH. Thiết kế template nhất quán cho 4 tuần.", hint: "Canva có sẵn 'Newsletter' template — tìm và customize. Kích thước A4 đứng. Màu sắc nhất quán với theme lớp.", output: "Template newsletter 1 tuần hoàn chỉnh + kế hoạch 4 tuần" }], congCu: ["Google Sheets", "Canva (newsletter)", "Seesaw", "Google Meet"], tags: ["Data-driven", "Google Sheets", "Newsletter", "PH kết nối", "Dashboard"], thamKhao: [] },
     ],
   },
   {
     id: 5, slug: "ai-cong-nghe",
     title: "AI & Công nghệ mới trong Giáo dục Tiểu học",
     emoji: "♷", color: "#be123c", bgLight: "#ffe4e6",
-    tietRange: "35–41", soTiet: 7,
+    tietRange: "", soTiet: 7,
     description: "Khám phá và ứng dụng AI tạo sinh, VR/AR, lập trình tư duy máy tính và STEAM tích hợp trong thực tiễn GDTH.",
     mucTieu: ["Sử dụng ChatGPT/Gemini hỗ trợ soạn giáo án và tạo học liệu", "Khai thác VR/AR và gamification trong GDTH", "Dạy lập trình tư duy máy tính với Scratch, Code.org, Bee-Bot", "Thiết kế unit STEAM tích hợp CNTT cho HS tiểu học", "Giảng dạy an toàn số và công dân số"],
     taiLieu: [{ ten: "UNESCO (2023). Guidance for Generative AI in Education", loai: "Tài liệu quốc tế" }, { ten: "Wing, J.M. (2006). Computational Thinking", loai: "Nghiên cứu" }, { ten: "Google Be Internet Awesome", loai: "Nguồn GD" }],
     lessons: [
-      { id: 35, num: "Tiết 35", type: "lt", title: "Trí tuệ nhân tạo (AI) trong Giáo dục Tiểu học", duration: 45, mota: "Tổng quan AI trong giáo dục: cơ hội, rủi ro và 5 nguyên tắc đạo đức UNESCO.", theory: [{ title: "AI tạo sinh (Generative AI) cho GV tiểu học", content: "ChatGPT, Gemini và Copilot có thể hỗ trợ GV tiết kiệm đến 40% thời gian soạn bài, nhưng cần hiểu giới hạn và rủi ro.", points: ["10 trường hợp dùng AI hợp lý: soạn KHBD, tạo đề kiểm tra, viết nhận xét HS cá nhân hóa, brainstorm", "Hallucination: AI có thể bịa đặt sự kiện — luôn fact-check trước khi dùng với HS", "5 nguyên tắc UNESCO (2023): Minh bạch, Trách nhiệm, Công bằng, An toàn, Kiểm soát con người", "Không nhập thông tin cá nhân HS vào AI — vi phạm bảo mật dữ liệu", "AI hỗ trợ GV, không thay thế GV — phán đoán sư phạm vẫn là của con người"] }], noiDungChinh: ["AI là gì: ML, Deep Learning, Generative AI", "ChatGPT/Gemini: 10 trường hợp dùng cho GV TH", "AI trong học tập HS: Duolingo, Khan Academy AI, math apps", "5 nguyên tắc đạo đức AI — UNESCO 2023", "Chính sách AI trong trường học VN: thực trạng và xu hướng"], phuongPhap: ["Demo live ChatGPT", "Thực hành prompt", "Thảo luận đạo đức"], chuanDauRa: "Sử dụng ChatGPT/Gemini cho 5 công việc GV thường ngày và áp dụng nguyên tắc đạo đức AI", exercises: [{ type: "medium", title: "Prompt Engineering cho GV TH", question: "Viết 5 prompt hoàn chỉnh dùng ChatGPT/Gemini cho: (1) soạn KHBD bài Toán lớp 3 theo mẫu Công văn 5512, (2) tạo 20 câu hỏi Bloom cho bài Tiếng Việt, (3) viết 10 mẫu nhận xét HS đa dạng năng lực, (4) brainstorm 10 ý tưởng khởi động sáng tạo, (5) tạo rubric 4 tiêu chí. Đánh giá chất lượng output AI và chỉnh sửa.", hint: "Cấu trúc prompt tốt: [Vai trò] + [Bối cảnh cụ thể] + [Nhiệm vụ] + [Định dạng output] + [Ràng buộc]. Ví dụ: 'Bạn là GV TH lớp 3 tại VN. Soạn KHBD bài Toán...'", output: "5 prompt + output AI + nhận xét chỉnh sửa gì" }], congCu: ["ChatGPT", "Google Gemini", "Bing Image Creator"], tags: ["ChatGPT", "Gemini", "AI Ethics", "Prompt Engineering", "UNESCO AI", "Hallucination"], thamKhao: [] },
-      { id: 36, num: "Tiết 36", type: "lab", title: "Lab 9: AI hỗ trợ soạn giáo án & sản xuất học liệu", duration: 90, mota: "Thực hành Prompt Engineering nâng cao và tạo bộ học liệu hoàn chỉnh có sự hỗ trợ của AI.", theory: [], labSteps: [{ title: "A. Prompt Engineering nâng cao (25 phút)", time: "25 phút", tasks: ["Kỹ thuật Few-shot: cho AI 2-3 ví dụ trước khi yêu cầu", "Chain-of-thought: yêu cầu AI giải thích từng bước", "Thực hành: viết lại 5 prompt kém → tốt theo checklist"] }, { title: "B. Soạn KHBD bằng AI (35 phút)", time: "35 phút", tasks: ["Soạn KHBD bằng Gemini theo mẫu Công văn 5512", "Chỉnh sửa output: thêm bối cảnh địa phương, ngữ cảnh thực tiễn", "So sánh: KHBD AI vs KHBD truyền thống — phân tích ưu/nhược"] }, { title: "C. Tạo học liệu với AI (20 phút)", time: "20 phút", tasks: ["20 câu Bloom's taxonomy bằng Gemini", "10 mẫu nhận xét HS cá nhân hóa (đa dạng năng lực)", "Hình ảnh minh họa bằng Bing Image Creator (kiểm tra bản quyền)", "Kiểm tra accuracy tất cả nội dung AI tạo trước khi dùng"] }, { title: "D. Đánh giá và phản hồi (10 phút)", time: "10 phút", tasks: ["Chia sẻ KHBD đã soạn, peer feedback", "Thảo luận: tiết kiệm được bao nhiêu thời gian? Rủi ro gì cần chú ý?"] }], noiDungChinh: ["Prompt Engineering: few-shot, chain-of-thought", "Soạn KHBD bằng AI", "Tạo câu hỏi Bloom, nhận xét HS, hình ảnh", "Kiểm tra accuracy nội dung AI"], phuongPhap: ["Thực hành cá nhân", "Chia sẻ kết quả", "Peer review"], chuanDauRa: "Soạn KHBD + bộ câu hỏi + nhận xét HS bằng AI trong <30 phút với chất lượng đảm bảo", congCu: ["ChatGPT", "Google Gemini", "Bing Image Creator", "Canva AI"], tags: ["Lab AI", "Prompt engineering", "KHBD AI", "Bloom", "Image AI"], thamKhao: [] },
-      { id: 37, num: "Tiết 37", type: "lt", title: "Lập trình & Tư duy máy tính cho HS tiểu học", duration: 45, mota: "Xây dựng năng lực dạy Computational Thinking và lập trình cho HS tiểu học theo CTGDPT 2018.", theory: [{ title: "Computational Thinking — 4 thành phần cốt lõi (Wing, 2006)", content: "Tư duy máy tính không chỉ là lập trình — đó là cách giải quyết vấn đề có thể áp dụng vào mọi môn học.", points: ["Decomposition: chia vấn đề phức tạp thành phần nhỏ — bài toán lớn → bài toán con", "Pattern Recognition: tìm điểm chung, quy luật — bảng cửu chương, quy luật thơ", "Abstraction: bỏ chi tiết không quan trọng, giữ bản chất — bản đồ, sơ đồ", "Algorithm Design: lập kế hoạch từng bước có thể thực hiện — công thức, quy trình"] }], noiDungChinh: ["Computational Thinking: 4 thành phần, ví dụ trong GDTH", "Unplugged Activities: dạy CT không cần máy tính", "ScratchJr (lớp 1-2) và Scratch 3.0 (lớp 3-5)", "Code.org: Course A-F tiếng Việt", "Bee-Bot, Ozobot, micro:bit cho lớp 1-5"], phuongPhap: ["Demo + thực hành Scratch", "Unplugged activity", "Thảo luận tích hợp"], chuanDauRa: "Dạy được các khái niệm CT cơ bản và tạo dự án Scratch đơn giản", exercises: [{ type: "medium", title: "Thiết kế Unplugged Activity", question: "Thiết kế 1 Unplugged Activity (không cần máy tính) dạy khái niệm 'thuật toán' cho HS lớp 2. Mô tả chi tiết: mục tiêu học tập, vật liệu cần, các bước tiến hành (15 phút), cách đánh giá. Thử nghiệm với nhóm bạn.", hint: "'Thuật toán làm sandwich', 'Lập trình robot người', 'Mã hóa bảng chữ cái' — chọn 1 ý tưởng hoặc tự sáng tạo", output: "Hướng dẫn hoạt động 1 trang + vật liệu mẫu + reflection sau khi thử" }], congCu: ["Scratch 3.0 (scratch.mit.edu)", "Code.org", "ScratchJr (tablet/điện thoại)"], tags: ["Scratch", "Computational Thinking", "Code.org", "Bee-Bot", "Unplugged", "CTGDPT 2018"], thamKhao: [] },
-      { id: 38, num: "Tiết 38–39", type: "lab", title: "Lab 10: Scratch 3.0 — Tạo dự án liên môn cho lớp 4-5", duration: 90, mota: "Thực hành tạo 2 dự án Scratch tích hợp liên môn và thiết kế bài học lập trình scaffold cho HS.", theory: [], labSteps: [{ title: "A. Warm-up Unplugged (15 phút)", time: "15 phút", tasks: ["'Thuật toán sandwich': viết từng bước làm sandwich, bạn đóng vai robot", "Phát hiện lỗi logic trong thuật toán → debug khái niệm"] }, { title: "B. Dự án 1: Kể chuyện 'Rùa và Thỏ' (35 phút)", time: "35 phút", tasks: ["Tạo backdrop (rừng, đích), thêm sprites Rùa và Thỏ", "Rùa: loop đi chậm đều, Thỏ: conditional chạy nhanh + wait + ngủ", "Thêm âm thanh, speech bubble thoại nhân vật", "Chia sẻ project link, nhúng vào Google Slides bài giảng Tiếng Việt"] }, { title: "C. Dự án 2: Quiz Bảng cửu chương (30 phút)", time: "30 phút", tasks: ["Variable: điểm số, số câu đúng, đáp án", "Ask block: phép nhân ngẫu nhiên 2-9", "Conditional: so sánh đáp án, tăng điểm nếu đúng, hint nếu sai", "Âm thanh phản hồi, hiển thị kết quả cuối với sprite vui mừng"] }, { title: "D. Thiết kế bài học scaffold (10 phút)", time: "10 phút", tasks: ["Tạo Starter Project (có sẵn sprites, backdrop)", "Viết Step-by-step card hướng dẫn cho HS", "Thiết kế Extension challenge cho HS hoàn thành sớm"] }], noiDungChinh: ["Unplugged: thuật toán và debug", "Scratch: storytelling animation (TV lớp 3)", "Scratch: quiz game tương tác (Toán lớp 3)", "Scaffold: starter project + step cards"], phuongPhap: ["Thực hành cá nhân", "Pair programming", "Demo sản phẩm"], chuanDauRa: "Hoàn thành 2 dự án Scratch public + bộ tài liệu bài học scaffold cho HS", congCu: ["Scratch 3.0 (web)", "Google Slides (nhúng Scratch)"], tags: ["Lab Scratch", "Animation", "Quiz game", "Pair programming", "Scaffold"], thamKhao: [] },
-      { id: 40, num: "Tiết 40–41", type: "bt", title: "Bài tập: Thiết kế unit STEAM tích hợp CNTT", duration: 90, mota: "Nhóm thiết kế unit STEAM 3 tiết tích hợp đầy đủ công nghệ và PBL cho HS tiểu học.", theory: [], noiDungChinh: ["STEAM tích hợp: không dạy riêng lẻ", "Mô hình 5E: Engage→Explore→Explain→Elaborate→Evaluate", "Thiết kế 5 hoạt động với công cụ số cụ thể", "Rubric STEAM 5 tiêu chí × 4 mức"], phuongPhap: ["Nhóm dự án", "Thiết kế sáng tạo", "Trình bày poster", "Peer vote"], chuanDauRa: "Thiết kế unit STEAM triển khai được thực tế, tích hợp ≥3 môn và ≥3 công cụ số", exercises: [{ type: "hard", title: "Unit STEAM 'Khu vườn thông minh'", question: "NHÓM 4-5 NGƯỜI. Thiết kế unit STEAM 'Khu vườn thông minh' (hoặc chủ đề nhóm tự chọn) cho HS lớp 4-5. Unit gồm: (1) Vấn đề thực tế địa phương cần giải quyết, (2) Tích hợp ≥3 môn với mục tiêu học tập cụ thể, (3) Chuỗi 5 hoạt động theo 5E với công cụ số, (4) Sản phẩm HS (vật lý + số), (5) Rubric STEAM 5 tiêu chí. Trình bày poster A1 + demo 8 phút.", hint: "Ví dụ: Khoa học (trồng cây, đo đạc) + Toán (tính diện tích, đồ thị tăng trưởng) + CN (Scratch mô phỏng, Sheets dữ liệu) + Mỹ thuật (thiết kế vườn trên Canva)", output: "Poster A1 in màu + tài liệu hướng dẫn chi tiết + rubric + tài nguyên số đính kèm" }], congCu: ["Canva (poster)", "Scratch", "Google Sheets", "micro:bit (nếu có)"], tags: ["STEAM", "PBL", "5E model", "Tích hợp liên môn", "Rubric STEAM"], thamKhao: [] },
+      { id: 35, num: "", type: "lt", title: "Trí tuệ nhân tạo (AI) trong Giáo dục Tiểu học", duration: 45, mota: "Tổng quan AI trong giáo dục: cơ hội, rủi ro và 5 nguyên tắc đạo đức UNESCO.", theory: [{ title: "AI tạo sinh (Generative AI) cho GV tiểu học", content: "ChatGPT, Gemini và Copilot có thể hỗ trợ GV tiết kiệm đến 40% thời gian soạn bài, nhưng cần hiểu giới hạn và rủi ro.", points: ["10 trường hợp dùng AI hợp lý: soạn KHBD, tạo đề kiểm tra, viết nhận xét HS cá nhân hóa, brainstorm", "Hallucination: AI có thể bịa đặt sự kiện — luôn fact-check trước khi dùng với HS", "5 nguyên tắc UNESCO (2023): Minh bạch, Trách nhiệm, Công bằng, An toàn, Kiểm soát con người", "Không nhập thông tin cá nhân HS vào AI — vi phạm bảo mật dữ liệu", "AI hỗ trợ GV, không thay thế GV — phán đoán sư phạm vẫn là của con người"] }], noiDungChinh: ["AI là gì: ML, Deep Learning, Generative AI", "ChatGPT/Gemini: 10 trường hợp dùng cho GV TH", "AI trong học tập HS: Duolingo, Khan Academy AI, math apps", "5 nguyên tắc đạo đức AI — UNESCO 2023", "Chính sách AI trong trường học VN: thực trạng và xu hướng"], phuongPhap: ["Demo live ChatGPT", "Thực hành prompt", "Thảo luận đạo đức"], chuanDauRa: "Sử dụng ChatGPT/Gemini cho 5 công việc GV thường ngày và áp dụng nguyên tắc đạo đức AI", exercises: [{ type: "medium", title: "Prompt Engineering cho GV TH", question: "Viết 5 prompt hoàn chỉnh dùng ChatGPT/Gemini cho: (1) soạn KHBD bài Toán lớp 3 theo mẫu Công văn 5512, (2) tạo 20 câu hỏi Bloom cho bài Tiếng Việt, (3) viết 10 mẫu nhận xét HS đa dạng năng lực, (4) brainstorm 10 ý tưởng khởi động sáng tạo, (5) tạo rubric 4 tiêu chí. Đánh giá chất lượng output AI và chỉnh sửa.", hint: "Cấu trúc prompt tốt: [Vai trò] + [Bối cảnh cụ thể] + [Nhiệm vụ] + [Định dạng output] + [Ràng buộc]. Ví dụ: 'Bạn là GV TH lớp 3 tại VN. Soạn KHBD bài Toán...'", output: "5 prompt + output AI + nhận xét chỉnh sửa gì" }], congCu: ["ChatGPT", "Google Gemini", "Bing Image Creator"], tags: ["ChatGPT", "Gemini", "AI Ethics", "Prompt Engineering", "UNESCO AI", "Hallucination"], thamKhao: [] },
+      { id: 36, num: "", type: "lab", title: "Lab 9: AI hỗ trợ soạn giáo án & sản xuất học liệu", duration: 90, mota: "Thực hành Prompt Engineering nâng cao và tạo bộ học liệu hoàn chỉnh có sự hỗ trợ của AI.", theory: [], labSteps: [{ title: "A. Prompt Engineering nâng cao ", time: "", tasks: ["Kỹ thuật Few-shot: cho AI 2-3 ví dụ trước khi yêu cầu", "Chain-of-thought: yêu cầu AI giải thích từng bước", "Thực hành: viết lại 5 prompt kém → tốt theo checklist"] }, { title: "B. Soạn KHBD bằng AI", time: "", tasks: ["Soạn KHBD bằng Gemini theo mẫu Công văn 5512", "Chỉnh sửa output: thêm bối cảnh địa phương, ngữ cảnh thực tiễn", "So sánh: KHBD AI vs KHBD truyền thống — phân tích ưu/nhược"] }, { title: "C. Tạo học liệu với AI", time: "", tasks: ["20 câu Bloom's taxonomy bằng Gemini", "10 mẫu nhận xét HS cá nhân hóa (đa dạng năng lực)", "Hình ảnh minh họa bằng Bing Image Creator (kiểm tra bản quyền)", "Kiểm tra accuracy tất cả nội dung AI tạo trước khi dùng"] }, { title: "D. Đánh giá và phản hồi", time: "", tasks: ["Chia sẻ KHBD đã soạn, peer feedback", "Thảo luận: tiết kiệm được bao nhiêu thời gian? Rủi ro gì cần chú ý?"] }], noiDungChinh: ["Prompt Engineering: few-shot, chain-of-thought", "Soạn KHBD bằng AI", "Tạo câu hỏi Bloom, nhận xét HS, hình ảnh", "Kiểm tra accuracy nội dung AI"], phuongPhap: ["Thực hành cá nhân", "Chia sẻ kết quả", "Peer review"], chuanDauRa: "Soạn KHBD + bộ câu hỏi + nhận xét HS bằng AI với chất lượng đảm bảo", congCu: ["ChatGPT", "Google Gemini", "Bing Image Creator", "Canva AI"], tags: ["Lab AI", "Prompt engineering", "KHBD AI", "Bloom", "Image AI"], thamKhao: [] },
+      { id: 37, num: "", type: "lt", title: "Lập trình & Tư duy máy tính cho HS tiểu học", duration: 45, mota: "Xây dựng năng lực dạy Computational Thinking và lập trình cho HS tiểu học theo CTGDPT 2018.", theory: [{ title: "Computational Thinking — 4 thành phần cốt lõi (Wing, 2006)", content: "Tư duy máy tính không chỉ là lập trình — đó là cách giải quyết vấn đề có thể áp dụng vào mọi môn học.", points: ["Decomposition: chia vấn đề phức tạp thành phần nhỏ — bài toán lớn → bài toán con", "Pattern Recognition: tìm điểm chung, quy luật — bảng cửu chương, quy luật thơ", "Abstraction: bỏ chi tiết không quan trọng, giữ bản chất — bản đồ, sơ đồ", "Algorithm Design: lập kế hoạch từng bước có thể thực hiện — công thức, quy trình"] }], noiDungChinh: ["Computational Thinking: 4 thành phần, ví dụ trong GDTH", "Unplugged Activities: dạy CT không cần máy tính", "ScratchJr (lớp 1-2) và Scratch 3.0 (lớp 3-5)", "Code.org: Course A-F tiếng Việt", "Bee-Bot, Ozobot, micro:bit cho lớp 1-5"], phuongPhap: ["Demo + thực hành Scratch", "Unplugged activity", "Thảo luận tích hợp"], chuanDauRa: "Dạy được các khái niệm CT cơ bản và tạo dự án Scratch đơn giản", exercises: [{ type: "medium", title: "Thiết kế Unplugged Activity", question: "Thiết kế 1 Unplugged Activity (không cần máy tính) dạy khái niệm 'thuật toán' cho HS lớp 2. Mô tả chi tiết: mục tiêu học tập, vật liệu cần, các bước tiến hành , cách đánh giá. Thử nghiệm với nhóm bạn.", hint: "'Thuật toán làm sandwich', 'Lập trình robot người', 'Mã hóa bảng chữ cái' — chọn 1 ý tưởng hoặc tự sáng tạo", output: "Hướng dẫn hoạt động 1 trang + vật liệu mẫu + reflection sau khi thử" }], congCu: ["Scratch 3.0 (scratch.mit.edu)", "Code.org", "ScratchJr (tablet/điện thoại)"], tags: ["Scratch", "Computational Thinking", "Code.org", "Bee-Bot", "Unplugged", "CTGDPT 2018"], thamKhao: [] },
+      { id: 38, num: "", type: "lab", title: "Lab 10: Scratch 3.0 — Tạo dự án liên môn cho lớp 4-5", duration: 90, mota: "Thực hành tạo 2 dự án Scratch tích hợp liên môn và thiết kế bài học lập trình scaffold cho HS.", theory: [], labSteps: [{ title: "A. Warm-up Unplugged", time: "", tasks: ["'Thuật toán sandwich': viết từng bước làm sandwich, bạn đóng vai robot", "Phát hiện lỗi logic trong thuật toán → debug khái niệm"] }, { title: "B. Dự án 1: Kể chuyện 'Rùa và Thỏ' ", time: "", tasks: ["Tạo backdrop (rừng, đích), thêm sprites Rùa và Thỏ", "Rùa: loop đi chậm đều, Thỏ: conditional chạy nhanh + wait + ngủ", "Thêm âm thanh, speech bubble thoại nhân vật", "Chia sẻ project link, nhúng vào Google Slides bài giảng Tiếng Việt"] }, { title: "C. Dự án 2: Quiz Bảng cửu chương ", time: "", tasks: ["Variable: điểm số, số câu đúng, đáp án", "Ask block: phép nhân ngẫu nhiên 2-9", "Conditional: so sánh đáp án, tăng điểm nếu đúng, hint nếu sai", "Âm thanh phản hồi, hiển thị kết quả cuối với sprite vui mừng"] }, { title: "D. Thiết kế bài học scaffold", time: "", tasks: ["Tạo Starter Project (có sẵn sprites, backdrop)", "Viết Step-by-step card hướng dẫn cho HS", "Thiết kế Extension challenge cho HS hoàn thành sớm"] }], noiDungChinh: ["Unplugged: thuật toán và debug", "Scratch: storytelling animation (TV lớp 3)", "Scratch: quiz game tương tác (Toán lớp 3)", "Scaffold: starter project + step cards"], phuongPhap: ["Thực hành cá nhân", "Pair programming", "Demo sản phẩm"], chuanDauRa: "Hoàn thành 2 dự án Scratch public + bộ tài liệu bài học scaffold cho HS", congCu: ["Scratch 3.0 (web)", "Google Slides (nhúng Scratch)"], tags: ["Lab Scratch", "Animation", "Quiz game", "Pair programming", "Scaffold"], thamKhao: [] },
+      { id: 40, num: "", type: "bt", title: "Bài tập: Thiết kế unit STEAM tích hợp CNTT", duration: 90, mota: "Nhóm thiết kế unit STEAM 3 tiết tích hợp đầy đủ công nghệ và PBL cho HS tiểu học.", theory: [], noiDungChinh: ["STEAM tích hợp: không dạy riêng lẻ", "Mô hình 5E: Engage→Explore→Explain→Elaborate→Evaluate", "Thiết kế 5 hoạt động với công cụ số cụ thể", "Rubric STEAM 5 tiêu chí × 4 mức"], phuongPhap: ["Nhóm dự án", "Thiết kế sáng tạo", "Trình bày poster", "Peer vote"], chuanDauRa: "Thiết kế unit STEAM triển khai được thực tế, tích hợp ≥3 môn và ≥3 công cụ số", exercises: [{ type: "hard", title: "Unit STEAM 'Khu vườn thông minh'", question: "NHÓM 4-5 NGƯỜI. Thiết kế unit STEAM 'Khu vườn thông minh' (hoặc chủ đề nhóm tự chọn) cho HS lớp 4-5. Unit gồm: (1) Vấn đề thực tế địa phương cần giải quyết, (2) Tích hợp ≥3 môn với mục tiêu học tập cụ thể, (3) Chuỗi 5 hoạt động theo 5E với công cụ số, (4) Sản phẩm HS (vật lý + số), (5) Rubric STEAM 5 tiêu chí. Trình bày poster A1 + demo.", hint: "Ví dụ: Khoa học (trồng cây, đo đạc) + Toán (tính diện tích, đồ thị tăng trưởng) + CN (Scratch mô phỏng, Sheets dữ liệu) + Mỹ thuật (thiết kế vườn trên Canva)", output: "Poster A1 in màu + tài liệu hướng dẫn chi tiết + rubric + tài nguyên số đính kèm" }], congCu: ["Canva (poster)", "Scratch", "Google Sheets", "micro:bit (nếu có)"], tags: ["STEAM", "PBL", "5E model", "Tích hợp liên môn", "Rubric STEAM"], thamKhao: [] },
     ],
   },
   {
     id: 6, slug: "tong-ket",
     title: "Thực hành tổng hợp & Đánh giá cuối khóa",
     emoji: "♸", color: "#0f766e", bgLight: "#ccfbf1",
-    tietRange: "42–45", soTiet: 4,
+    tietRange: "", soTiet: 4,
     description: "Tổng hợp toàn bộ khóa học qua portfolio cá nhân, hội thảo triển lãm và bài thi thực hành thiết kế tiết dạy tích hợp CNTT.",
     mucTieu: ["Tổng hợp hồ sơ năng lực số cá nhân trên Google Sites", "Chia sẻ sản phẩm học tập qua hội thảo triển lãm", "Hoàn thành bài thi thực hành thiết kế tiết dạy", "Xác định lộ trình phát triển nghề nghiệp số"],
     taiLieu: [{ ten: "ISTE Standards for Educators 2017", loai: "Tiêu chuẩn" }, { ten: "Google Certified Educator Level 1 Study Guide", loai: "Tài liệu" }],
     lessons: [
-      { id: 42, num: "Tiết 42–43", type: "lab", title: "Lab 11: Xây dựng hồ sơ năng lực số cá nhân (Google Sites)", duration: 90, mota: "Tổng hợp toàn bộ sản phẩm 5 chương vào Google Sites portfolio chuyên nghiệp.", theory: [], labSteps: [{ title: "A. Thiết kế cấu trúc Google Sites (20 phút)", time: "20 phút", tasks: ["Tạo Google Sites, chọn theme nhất quán với phong cách cá nhân", "Menu: Về tôi / Kho học liệu / Sản phẩm nổi bật / Năng lực số / Kế hoạch tiếp theo", "Trang chủ: ảnh chuyên nghiệp, quote giáo dục, tóm tắt năng lực"] }, { title: "B. Nhúng sản phẩm (50 phút)", time: "50 phút", tasks: ["Kho học liệu: nhúng Padlet/Drive với tất cả học liệu đã tạo", "Sản phẩm nổi bật: chọn 5 sản phẩm tốt nhất + mô tả reflection", "Năng lực số: biểu đồ radar DigComp đầu vs cuối khóa (Google Sheets nhúng)", "Kế hoạch: IDP 12 tháng + lộ trình Google Certified Educator"] }, { title: "C. Finalize và chia sẻ (20 phút)", time: "20 phút", tasks: ["Publish Google Sites (link công khai)", "Test trên điện thoại — mobile responsive", "Chia sẻ link lên Padlet lớp"] }], noiDungChinh: ["Thiết kế Google Sites portfolio", "Nhúng tất cả sản phẩm khóa học", "Biểu đồ radar năng lực DigComp", "IDP 12 tháng"], phuongPhap: ["Thực hành cá nhân", "Peer review cuối"], chuanDauRa: "Hoàn chỉnh Google Sites với ≥10 sản phẩm, biểu đồ năng lực, IDP 12 tháng", congCu: ["Google Sites", "Google Sheets", "Canva", "Google Drive"], tags: ["Google Sites", "Portfolio", "DigComp radar", "IDP", "Google Certified Educator"], thamKhao: [] },
-      { id: 44, num: "Tiết 44", type: "tt", title: "Hội thảo: Triển lãm sản phẩm & Chia sẻ kinh nghiệm", duration: 45, mota: "Hội thảo chia sẻ và gallery walk kỹ thuật số — cơ hội học từ nhau và kết nối cộng đồng GV.", theory: [], noiDungChinh: ["Gallery Walk số: xem portfolio Padlet + comment cấu trúc", "4-5 học viên trình bày sản phẩm nổi bật 3-4 phút", "Thảo luận: rào cản khi về trường và giải pháp", "Cam kết hành động cụ thể + kết nối cộng đồng GV"], phuongPhap: ["Gallery walk số", "Peer presentation", "Thảo luận có cấu trúc", "Networking"], chuanDauRa: "Chia sẻ sản phẩm, học từ đồng nghiệp, kết nối cộng đồng GV chuyên nghiệp", congCu: ["Padlet", "Mentimeter", "Google Sites"], tags: ["Triển lãm", "Gallery walk", "Cộng đồng GV", "Peer learning"], thamKhao: [] },
-      { id: 45, num: "Tiết 45", type: "kt", title: "Kiểm tra cuối kỳ — Thiết kế & Demo tiết dạy tích hợp CNTT", duration: 90, mota: "Bài thi thực hành tổng hợp: nhận đề ngẫu nhiên → thiết kế tiết dạy hoàn chỉnh → demo 8 phút.", theory: [], noiDungChinh: ["Phần 1 (60p): Thiết kế tiết dạy hoàn chỉnh — KHBD + học liệu + quiz + cộng tác", "Phần 2 (30p): Demo 8 phút + trả lời câu hỏi giám khảo", "Biểu điểm (100đ): KHBD 25 + Học liệu 25 + Quiz 20 + Cộng tác 15 + Demo 15"], phuongPhap: ["Thi cá nhân", "Demo nhóm giám khảo", "Rubric chi tiết"], chuanDauRa: "Đạt 70/100 điểm; thiết kế và demo tiết dạy tổng hợp đầy đủ công cụ CNTT", congCu: ["Tất cả công cụ đã học trong khóa"], tags: ["Thi cuối kỳ", "Rubric 5 tiêu chí", "Demo", "KHBD"], thamKhao: [] },
+      { id: 42, num: "", type: "lab", title: "Lab 11: Xây dựng hồ sơ năng lực số cá nhân (Google Sites)", duration: 90, mota: "Tổng hợp toàn bộ sản phẩm 5 chương vào Google Sites portfolio chuyên nghiệp.", theory: [], labSteps: [{ title: "A. Thiết kế cấu trúc Google Sites ", time: "", tasks: ["Tạo Google Sites, chọn theme nhất quán với phong cách cá nhân", "Menu: Về tôi / Kho học liệu / Sản phẩm nổi bật / Năng lực số / Kế hoạch tiếp theo", "Trang chủ: ảnh chuyên nghiệp, quote giáo dục, tóm tắt năng lực"] }, { title: "B. Nhúng sản phẩm", time: "", tasks: ["Kho học liệu: nhúng Padlet/Drive với tất cả học liệu đã tạo", "Sản phẩm nổi bật: chọn 5 sản phẩm tốt nhất + mô tả reflection", "Năng lực số: biểu đồ radar DigComp đầu vs cuối khóa (Google Sheets nhúng)", "Kế hoạch: IDP 12 tháng + lộ trình Google Certified Educator"] }, { title: "C. Finalize và chia sẻ", time: "", tasks: ["Publish Google Sites (link công khai)", "Test trên điện thoại — mobile responsive", "Chia sẻ link lên Padlet lớp"] }], noiDungChinh: ["Thiết kế Google Sites portfolio", "Nhúng tất cả sản phẩm khóa học", "Biểu đồ radar năng lực DigComp", "IDP 12 tháng"], phuongPhap: ["Thực hành cá nhân", "Peer review cuối"], chuanDauRa: "Hoàn chỉnh Google Sites với ≥10 sản phẩm, biểu đồ năng lực, IDP 12 tháng", congCu: ["Google Sites", "Google Sheets", "Canva", "Google Drive"], tags: ["Google Sites", "Portfolio", "DigComp radar", "IDP", "Google Certified Educator"], thamKhao: [] },
+      { id: 44, num: "", type: "tt", title: "Hội thảo: Triển lãm sản phẩm & Chia sẻ kinh nghiệm", duration: 45, mota: "Hội thảo chia sẻ và gallery walk kỹ thuật số — cơ hội học từ nhau và kết nối cộng đồng GV.", theory: [], noiDungChinh: ["Gallery Walk số: xem portfolio Padlet + comment cấu trúc", "4-5 học viên trình bày sản phẩm nổi bật", "Thảo luận: rào cản khi về trường và giải pháp", "Cam kết hành động cụ thể + kết nối cộng đồng GV"], phuongPhap: ["Gallery walk số", "Peer presentation", "Thảo luận có cấu trúc", "Networking"], chuanDauRa: "Chia sẻ sản phẩm, học từ đồng nghiệp, kết nối cộng đồng GV chuyên nghiệp", congCu: ["Padlet", "Mentimeter", "Google Sites"], tags: ["Triển lãm", "Gallery walk", "Cộng đồng GV", "Peer learning"], thamKhao: [] },
+      { id: 45, num: "", type: "kt", title: "Kiểm tra cuối kỳ — Thiết kế & Demo tiết dạy tích hợp CNTT", duration: 90, mota: "Bài thi thực hành tổng hợp: nhận đề ngẫu nhiên → thiết kế tiết dạy hoàn chỉnh → demo .", theory: [], noiDungChinh: ["Phần 1 (60p): Thiết kế tiết dạy hoàn chỉnh — KHBD + học liệu + quiz + cộng tác", "Phần 2: Demo + trả lời câu hỏi giám khảo", "Biểu điểm (100đ): KHBD 25 + Học liệu 25 + Quiz 20 + Cộng tác 15 + Demo 15"], phuongPhap: ["Thi cá nhân", "Demo nhóm giám khảo", "Rubric chi tiết"], chuanDauRa: "Đạt 70/100 điểm; thiết kế và demo tiết dạy tổng hợp đầy đủ công cụ CNTT", congCu: ["Tất cả công cụ đã học trong khóa"], tags: ["Thi cuối kỳ", "Rubric 5 tiêu chí", "Demo", "KHBD"], thamKhao: [] },
     ],
   },
 ];
