@@ -4,7 +4,7 @@
 
 export const META = {
   title: "Ứng dụng CNTT trong Giáo dục Tiểu học",
-  code: "MH.CNTT.TH.001",
+  code: "MH.CNTT.TH. GT2212",
   credits: 3,
   totalLessons: 45,
   totalChapters: 6,
@@ -87,9 +87,9 @@ export const FACULTY = {
     },
   ],
   schedule: [
-    { day: "i", slots: ["", ""] },
     { day: "", slots: ["", ""] },
-    { day: "u", slots: ["", ""] },
+    { day: "", slots: ["", ""] },
+    { day: "", slots: ["", ""] },
   ],
 };
 
