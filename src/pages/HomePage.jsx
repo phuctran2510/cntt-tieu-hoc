@@ -10,7 +10,7 @@ function useIsMobile() {
   }, []);
   return m;
 }
-s
+
 export default function HomePage({ onNav }) {
   const mob = useIsMobile();
 
