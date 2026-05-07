@@ -34,7 +34,7 @@ export default function ChapterPage({ chapterId, onNav }) {
               </div>
               <div style={{ flex:1, minWidth:0 }}>
                 <div style={{ fontSize: mob?9.5:10.5, fontWeight:700, letterSpacing:'0.1em', textTransform:'uppercase', color:'rgba(255,255,255,0.6)', marginBottom:5 }}>
-                  Chương {ch.id} ·  {ch.tietRange} · {ch.soTiet} 
+                  Chương {ch.id} ·  
                 </div>
                 <h1 style={{ fontFamily:"'Fraunces',serif", fontSize: mob?17:22, fontWeight:700, color:'#fff', lineHeight:1.25, marginBottom:7 }}>
                   {ch.title}
