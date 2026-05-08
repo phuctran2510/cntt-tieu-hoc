@@ -4,7 +4,7 @@
 
 export const META = {
   title: "Ứng dụng CNTT trong Giáo dục Tiểu học",
-  link: "Link Google Meeting",
+  link: "https://phuctran.io.vn/",
   code: "MH.CNTT.TH. GT2212",
   credits: 3,
   totalLessons: 45,
