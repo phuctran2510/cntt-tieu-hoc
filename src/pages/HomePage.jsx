@@ -27,7 +27,7 @@ export default function HomePage({ onNav }) {
             {META.title}
           </h1>
           <h1 style={{ fontFamily:"'Fraunces',serif", fontSize: mob?12:20, fontWeight:300, color:'#fff', lineHeight:1.2, marginBottom:9, maxWidth:660 }}>
-            {META.link}
+            <a href={META.link} target="_blank" rel="noopener noreferrer"></a>
           </h1>
           <p style={{ fontSize: mob?13:14, color:'rgba(255,255,255,0.55)', maxWidth:560, lineHeight:1.7, marginBottom:20 }}>
             {META.description}
