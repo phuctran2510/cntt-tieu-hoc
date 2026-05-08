@@ -23,7 +23,7 @@ export default function HomePage({ onNav }) {
           <div style={{ fontSize:10, fontWeight:700, letterSpacing:'0.14em', textTransform:'uppercase', color:'rgba(255,255,255,0.38)', marginBottom:9 }}>
             📚 Mã môn: {META.code} · {META.version}
           </div>
-          <h1 style={{ fontFamily:"'Fraunces',serif", fontSize: mob?22:30, fontWeight:700, color:'#fff', lineHeight:1.2, marginBottom:9, maxWidth:560 }}>
+          <h1 style={{ fontFamily:"'Fraunces',serif", fontSize: mob?22:30, fontWeight:700, color:'#fff', lineHeight:1.2, marginBottom:9, maxWidth:660 }}>
             {META.title}
           </h1>
           <h1 style={{ fontFamily:"'Fraunces',serif", fontSize: mob?12:20, fontWeight:300, color:'#fff', lineHeight:1.2, marginBottom:9, maxWidth:660 }}>
