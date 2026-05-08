@@ -4,6 +4,7 @@
 
 export const META = {
   title: "Ứng dụng CNTT trong Giáo dục Tiểu học",
+  link: "Ứng dụng CNTT trong Giáo dục Tiểu học",
   code: "MH.CNTT.TH. GT2212",
   credits: 3,
   totalLessons: 45,

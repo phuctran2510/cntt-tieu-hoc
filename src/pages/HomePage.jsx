@@ -26,6 +26,9 @@ export default function HomePage({ onNav }) {
           <h1 style={{ fontFamily:"'Fraunces',serif", fontSize: mob?22:30, fontWeight:700, color:'#fff', lineHeight:1.2, marginBottom:9, maxWidth:560 }}>
             {META.title}
           </h1>
+          <h1 style={{ fontFamily:"'Fraunces',serif", fontSize: mob?22:30, fontWeight:700, color:'#fff', lineHeight:1.2, marginBottom:9, maxWidth:560 }}>
+            {META.link}
+          </h1>
           <p style={{ fontSize: mob?13:14, color:'rgba(255,255,255,0.55)', maxWidth:560, lineHeight:1.7, marginBottom:20 }}>
             {META.description}
           </p>
