@@ -4,7 +4,7 @@
 
 export const META = {
   title: "Ứng dụng CNTT trong Giáo dục Tiểu học",
-  link: "hhttps://meet.google.com/cnb-ybnf-dyb",
+  link: "https://meet.google.com/cnb-ybnf-dyb",
   code: "MH.CNTT.TH. GT2212",
   credits: 3,
   totalLessons: 45,
